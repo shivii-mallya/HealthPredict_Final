@@ -1,0 +1,7222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        HealthPredict | Predictive Healthcare Planning
+    </title>
+
+
+    <style>
+
+        /* =========================================================
+           GLOBAL
+        ========================================================== */
+
+        :root {
+
+            --navy: #062d40;
+            --blue: #07516a;
+            --teal: #087f8c;
+            --cyan: #65dbe5;
+
+            --text: #102a43;
+            --muted: #6d8190;
+
+            --white: #ffffff;
+            --background: #f4f8fa;
+
+            --border: #dfeaec;
+
+            --green: #22764f;
+            --green-bg: #edf9f3;
+
+            --yellow: #9a6800;
+            --yellow-bg: #fff8e7;
+
+            --red: #b52d47;
+            --red-bg: #fff0f3;
+
+            --purple: #7250a8;
+            --purple-bg: #f5effc;
+
+            --shadow:
+                0 10px 30px rgba(20,55,70,0.07);
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+
+        body {
+
+            font-family:
+                "Segoe UI",
+                Arial,
+                sans-serif;
+
+            color: var(--text);
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #f4fafb,
+                    #edf6f8,
+                    #f9fcfd
+                );
+
+            line-height: 1.55;
+        }
+
+
+        button,
+        input,
+        select {
+            font-family: inherit;
+        }
+
+
+        button {
+            cursor: pointer;
+        }
+
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+
+        .container {
+
+            width: 88%;
+
+            max-width: 1450px;
+
+            margin: auto;
+        }
+
+
+        /* =========================================================
+           NAVBAR
+        ========================================================== */
+
+        .navbar {
+
+            position: sticky;
+            top: 0;
+
+            z-index: 1000;
+
+            min-height: 72px;
+
+            padding:
+                12px 6%;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            gap: 20px;
+
+            background:
+                rgba(255,255,255,0.96);
+
+            border-bottom:
+                1px solid var(--border);
+
+            backdrop-filter:
+                blur(12px);
+        }
+
+
+        .brand {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 10px;
+
+            color:
+                var(--blue);
+
+            font-size: 20px;
+
+            font-weight: 800;
+
+            white-space: nowrap;
+        }
+
+
+        .brand-icon {
+
+            width: 42px;
+            height: 42px;
+
+            display: grid;
+
+            place-items: center;
+
+            border-radius: 12px;
+
+            color:
+                white;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    var(--teal),
+                    var(--blue)
+                );
+        }
+
+
+        .nav-links {
+
+            display: flex;
+
+            gap: 22px;
+
+            color:
+                #607583;
+
+            font-size: 12px;
+
+            font-weight: 700;
+        }
+
+
+        .nav-links a:hover {
+
+            color:
+                var(--teal);
+        }
+
+
+        .system-status {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 7px;
+
+            padding:
+                7px 12px;
+
+            border-radius:
+                20px;
+
+            background:
+                var(--green-bg);
+
+            color:
+                var(--green);
+
+            font-size:
+                10px;
+
+            font-weight:
+                800;
+        }
+
+
+        .status-dot {
+
+            width: 8px;
+            height: 8px;
+
+            border-radius: 50%;
+
+            background:
+                #2caf6a;
+
+            animation:
+                statusPulse 2s infinite;
+        }
+
+
+        @keyframes statusPulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            50% {
+                transform: scale(1.35);
+                opacity: .6;
+            }
+        }
+
+
+        /* =========================================================
+           HERO
+        ========================================================== */
+
+        .hero {
+
+            position: relative;
+
+            overflow: hidden;
+
+            min-height:
+                420px;
+
+            margin-top:
+                32px;
+
+            padding:
+                60px;
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            border-radius:
+                30px;
+
+            color:
+                white;
+
+            background:
+                linear-gradient(
+                    120deg,
+                    var(--navy),
+                    var(--blue),
+                    var(--teal)
+                );
+
+            box-shadow:
+                0 25px 65px
+                rgba(4,50,70,.18);
+        }
+
+
+        .hero-content {
+
+            position: relative;
+
+            z-index: 5;
+
+            width:
+                60%;
+        }
+
+
+        .hero-badge {
+
+            display:
+                inline-block;
+
+            padding:
+                7px 14px;
+
+            margin-bottom:
+                18px;
+
+            border:
+                1px solid
+                rgba(255,255,255,.2);
+
+            border-radius:
+                30px;
+
+            background:
+                rgba(255,255,255,.1);
+
+            font-size:
+                10px;
+
+            font-weight:
+                800;
+
+            letter-spacing:
+                1px;
+        }
+
+
+        .hero h1 {
+
+            max-width:
+                770px;
+
+            font-size:
+                clamp(
+                    40px,
+                    5vw,
+                    64px
+                );
+
+            line-height:
+                1.04;
+
+            letter-spacing:
+                -2px;
+        }
+
+
+        .hero h1 span {
+
+            color:
+                var(--cyan);
+        }
+
+
+        .hero p {
+
+            max-width:
+                650px;
+
+            margin-top:
+                18px;
+
+            color:
+                rgba(255,255,255,.8);
+
+            font-size:
+                16px;
+        }
+
+
+        .hero-button {
+
+            margin-top:
+                25px;
+
+            padding:
+                13px 21px;
+
+            border:
+                0;
+
+            border-radius:
+                11px;
+
+            background:
+                white;
+
+            color:
+                var(--blue);
+
+            font-weight:
+                800;
+        }
+
+
+        /* =========================================================
+           MEDICAL ANIMATION
+        ========================================================== */
+
+        .medical-animation {
+
+            position:
+                absolute;
+
+            right:
+                4%;
+
+            top:
+                50%;
+
+            width:
+                390px;
+
+            height:
+                300px;
+
+            transform:
+                translateY(-50%);
+        }
+
+
+        .medical-circle {
+
+            position:
+                absolute;
+
+            border:
+                1px solid
+                rgba(110,230,238,.27);
+
+            border-radius:
+                50%;
+        }
+
+
+        .circle-one {
+
+            width:
+                280px;
+
+            height:
+                280px;
+
+            top:
+                0;
+
+            right:
+                30px;
+
+            animation:
+                rotateOne
+                15s
+                linear
+                infinite;
+        }
+
+
+        .circle-two {
+
+            width:
+                210px;
+
+            height:
+                210px;
+
+            top:
+                35px;
+
+            right:
+                65px;
+
+            animation:
+                rotateTwo
+                10s
+                linear
+                infinite;
+        }
+
+
+        .circle-three {
+
+            width:
+                145px;
+
+            height:
+                145px;
+
+            top:
+                67px;
+
+            right:
+                98px;
+
+            background:
+                rgba(255,255,255,.07);
+
+            animation:
+                breathe
+                3s
+                ease-in-out
+                infinite;
+        }
+
+
+        @keyframes rotateOne {
+
+            from {
+                transform:
+                    rotate(0deg);
+            }
+
+            to {
+                transform:
+                    rotate(360deg);
+            }
+
+        }
+
+
+        @keyframes rotateTwo {
+
+            from {
+                transform:
+                    rotate(360deg);
+            }
+
+            to {
+                transform:
+                    rotate(0deg);
+            }
+
+        }
+
+
+        @keyframes breathe {
+
+            0%,
+            100% {
+                transform:
+                    scale(1);
+            }
+
+            50% {
+                transform:
+                    scale(1.08);
+            }
+
+        }
+
+
+        .medical-cross {
+
+            position:
+                absolute;
+
+            right:
+                142px;
+
+            top:
+                103px;
+
+            width:
+                58px;
+
+            height:
+                58px;
+
+            border-radius:
+                16px;
+
+            background:
+                var(--cyan);
+
+            box-shadow:
+                0 0 40px
+                rgba(99,219,229,.5);
+
+            animation:
+                breathe
+                2.5s
+                ease-in-out
+                infinite;
+        }
+
+
+        .medical-cross::before,
+        .medical-cross::after {
+
+            content:
+                "";
+
+            position:
+                absolute;
+
+            background:
+                white;
+
+            border-radius:
+                3px;
+        }
+
+
+        .medical-cross::before {
+
+            width:
+                30px;
+
+            height:
+                8px;
+
+            left:
+                14px;
+
+            top:
+                25px;
+        }
+
+
+        .medical-cross::after {
+
+            width:
+                8px;
+
+            height:
+                30px;
+
+            left:
+                25px;
+
+            top:
+                14px;
+        }
+
+
+        .ecg {
+
+            position:
+                absolute;
+
+            left:
+                0;
+
+            bottom:
+                28px;
+
+            width:
+                390px;
+
+            opacity:
+                .65;
+        }
+
+
+        .ecg svg {
+            width: 100%;
+        }
+
+
+        .ecg-line {
+
+            fill:
+                none;
+
+            stroke:
+                #6de4ec;
+
+            stroke-width:
+                3;
+
+            stroke-linecap:
+                round;
+
+            stroke-linejoin:
+                round;
+
+            stroke-dasharray:
+                500;
+
+            stroke-dashoffset:
+                500;
+
+            animation:
+                ecgMove
+                3s
+                linear
+                infinite;
+        }
+
+
+        @keyframes ecgMove {
+
+            to {
+                stroke-dashoffset:
+                    0;
+            }
+
+        }
+
+
+        /* =========================================================
+           SECTIONS
+        ========================================================== */
+
+        .section {
+
+            margin-top:
+                65px;
+        }
+
+
+        .section-heading {
+
+            margin-bottom:
+                20px;
+        }
+
+
+        .eyebrow {
+
+            margin-bottom:
+                5px;
+
+            color:
+                var(--teal);
+
+            font-size:
+                10px;
+
+            font-weight:
+                800;
+
+            letter-spacing:
+                1.3px;
+
+            text-transform:
+                uppercase;
+        }
+
+
+        .section-heading h2 {
+
+            font-size:
+                29px;
+        }
+
+
+        .section-heading p {
+
+            margin-top:
+                6px;
+
+            color:
+                var(--muted);
+
+            font-size:
+                13px;
+        }
+
+
+        .info-line {
+
+            padding:
+                17px 21px;
+
+            border:
+                1px solid var(--border);
+
+            border-radius:
+                15px;
+
+            background:
+                white;
+
+            box-shadow:
+                var(--shadow);
+
+            color:
+                #607684;
+
+            font-size:
+                13px;
+        }
+
+
+        .info-line strong {
+
+            color:
+                var(--blue);
+        }
+
+
+        /* =========================================================
+           DASHBOARD HEADER
+        ========================================================== */
+
+        .dashboard-header {
+
+            margin-top:
+                70px;
+
+            display:
+                flex;
+
+            align-items:
+                flex-end;
+
+            justify-content:
+                space-between;
+
+            gap:
+                20px;
+        }
+
+
+        .dashboard-title h2 {
+
+            font-size:
+                31px;
+        }
+
+
+        .dashboard-title p {
+
+            margin-top:
+                5px;
+
+            color:
+                var(--muted);
+
+            font-size:
+                13px;
+        }
+
+
+        .live-label {
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            gap:
+                7px;
+
+            padding:
+                8px 12px;
+
+            border-radius:
+                20px;
+
+            background:
+                var(--green-bg);
+
+            color:
+                var(--green);
+
+            font-size:
+                10px;
+
+            font-weight:
+                800;
+        }
+
+
+        /* =========================================================
+           CDC
+        ========================================================== */
+
+        .cdc-main {
+
+            position:
+                relative;
+
+            margin-top:
+                25px;
+
+            padding:
+                28px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                22px;
+
+            background:
+                white;
+
+            box-shadow:
+                0 15px 45px
+                rgba(19,65,80,.07);
+        }
+
+
+        .cdc-top {
+
+            display:
+                flex;
+
+            justify-content:
+                space-between;
+
+            gap:
+                20px;
+
+            margin-bottom:
+                22px;
+        }
+
+
+        .cdc-heading {
+
+            display:
+                flex;
+
+            gap:
+                14px;
+        }
+
+
+        .cdc-logo {
+
+            width:
+                48px;
+
+            height:
+                48px;
+
+            display:
+                grid;
+
+            place-items:
+                center;
+
+            flex-shrink:
+                0;
+
+            border-radius:
+                14px;
+
+            background:
+                #e2f6f8;
+
+            color:
+                var(--teal);
+
+            font-size:
+                14px;
+
+            font-weight:
+                900;
+        }
+
+
+        .cdc-heading h3 {
+
+            font-size:
+                20px;
+        }
+
+
+        .cdc-heading p {
+
+            margin-top:
+                4px;
+
+            color:
+                var(--muted);
+
+            font-size:
+                12px;
+        }
+
+
+        .cdc-tag {
+
+            padding:
+                7px 11px;
+
+            height:
+                fit-content;
+
+            border-radius:
+                20px;
+
+            background:
+                #e9f8fa;
+
+            color:
+                #116573;
+
+            font-size:
+                9px;
+
+            font-weight:
+                800;
+        }
+
+
+        .search-title {
+
+            margin-bottom:
+                9px;
+
+            color:
+                #637985;
+
+            font-size:
+                11px;
+
+            font-weight:
+                800;
+        }
+
+
+        .cdc-search-area {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                1fr 250px;
+
+            gap:
+                12px;
+        }
+
+
+        .search-wrapper {
+
+            position:
+                relative;
+        }
+
+
+        .search-wrapper input {
+
+            width:
+                100%;
+
+            height:
+                50px;
+
+            padding:
+                0 58px 0 15px;
+
+            border:
+                1px solid
+                #ccdfe4;
+
+            border-radius:
+                11px;
+
+            outline:
+                none;
+
+            background:
+                #fbfdfe;
+
+            font-size:
+                13px;
+        }
+
+
+        .search-wrapper input:focus {
+
+            border-color:
+                var(--teal);
+
+            box-shadow:
+                0 0 0 4px
+                rgba(8,127,140,.08);
+        }
+
+
+        .search-button {
+
+            position:
+                absolute;
+
+            right:
+                5px;
+
+            top:
+                5px;
+
+            width:
+                40px;
+
+            height:
+                40px;
+
+            display:
+                grid;
+
+            place-items:
+                center;
+
+            border:
+                0;
+
+            border-radius:
+                9px;
+
+            background:
+                var(--teal);
+
+            color:
+                white;
+        }
+
+
+        .search-button:hover {
+
+            background:
+                var(--blue);
+        }
+
+
+        .search-button svg {
+
+            width:
+                18px;
+
+            height:
+                18px;
+        }
+
+
+        .region-select {
+
+            width:
+                100%;
+
+            height:
+                50px;
+
+            padding:
+                0 12px;
+
+            border:
+                1px solid
+                #ccdfe4;
+
+            border-radius:
+                11px;
+
+            outline:
+                none;
+
+            background:
+                #fbfdfe;
+
+            color:
+                #284856;
+        }
+
+
+        .search-results {
+
+            display:
+                none;
+
+            position:
+                absolute;
+
+            left:
+                28px;
+
+            right:
+                290px;
+
+            top:
+                158px;
+
+            z-index:
+                50;
+
+            max-height:
+                220px;
+
+            overflow:
+                auto;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                11px;
+
+            background:
+                white;
+
+            box-shadow:
+                0 12px 35px
+                rgba(20,60,75,.14);
+        }
+
+
+        .search-result {
+
+            width:
+                100%;
+
+            padding:
+                12px 14px;
+
+            text-align:
+                left;
+
+            border:
+                0;
+
+            border-bottom:
+                1px solid #edf2f4;
+
+            background:
+                white;
+
+            color:
+                #45606c;
+
+            font-size:
+                11px;
+        }
+
+
+        .search-result:hover {
+
+            background:
+                #edf8fa;
+
+            color:
+                var(--teal);
+        }
+
+
+        .selected-region {
+
+            margin-top:
+                20px;
+
+            padding:
+                16px 18px;
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                space-between;
+
+            gap:
+                20px;
+
+            border:
+                1px solid
+                #d9edf0;
+
+            border-radius:
+                14px;
+
+            background:
+                #f0fafb;
+        }
+
+
+        .selected-label {
+
+            color:
+                #82939b;
+
+            font-size:
+                9px;
+
+            font-weight:
+                800;
+
+            text-transform:
+                uppercase;
+        }
+
+
+        .selected-name {
+
+            margin-top:
+                2px;
+
+            color:
+                var(--blue);
+
+            font-size:
+                19px;
+
+            font-weight:
+                800;
+        }
+
+
+        .get-button {
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            gap:
+                8px;
+
+            padding:
+                11px 16px;
+
+            border:
+                0;
+
+            border-radius:
+                10px;
+
+            background:
+                var(--teal);
+
+            color:
+                white;
+
+            font-size:
+                11px;
+
+            font-weight:
+                800;
+        }
+
+
+        .get-button svg {
+
+            width:
+                15px;
+
+            height:
+                15px;
+        }
+
+
+        .loading {
+
+            display:
+                none;
+
+            justify-content:
+                center;
+
+            align-items:
+                center;
+
+            gap:
+                8px;
+
+            padding:
+                15px;
+
+            color:
+                var(--teal);
+
+            font-size:
+                11px;
+
+            font-weight:
+                700;
+        }
+
+
+        .spinner {
+
+            width:
+                17px;
+
+            height:
+                17px;
+
+            border:
+                2px solid
+                #d8eef0;
+
+            border-top-color:
+                var(--teal);
+
+            border-radius:
+                50%;
+
+            animation:
+                spin
+                .8s
+                linear
+                infinite;
+        }
+
+
+        @keyframes spin {
+
+            to {
+                transform:
+                    rotate(360deg);
+            }
+        }
+
+
+        .region-information {
+
+            display:
+                none;
+
+            margin-top:
+                20px;
+        }
+
+
+        .region-info-header {
+
+            display:
+                flex;
+
+            justify-content:
+                space-between;
+
+            gap:
+                15px;
+
+            margin-bottom:
+                15px;
+        }
+
+
+        .cdc-metrics {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(4,1fr);
+
+            gap:
+                13px;
+        }
+
+
+        .cdc-metric {
+
+            padding:
+                18px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                15px;
+
+            background:
+                #fbfdfe;
+        }
+
+
+        .metric-label {
+
+            color:
+                #778b95;
+
+            font-size:
+                10px;
+
+            font-weight:
+                800;
+
+            text-transform:
+                uppercase;
+        }
+
+
+        .metric-value {
+
+            margin-top:
+                7px;
+
+            color:
+                var(--teal);
+
+            font-size:
+                27px;
+
+            font-weight:
+                800;
+        }
+
+
+        .metric-small {
+
+            color:
+                #8b9aa2;
+
+            font-size:
+                9px;
+        }
+
+
+        .activity-card {
+
+            margin-top:
+                15px;
+
+            padding:
+                18px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                15px;
+
+            background:
+                white;
+        }
+
+
+        .activity-row {
+
+            display:
+                flex;
+
+            justify-content:
+                space-between;
+
+            align-items:
+                center;
+        }
+
+
+        .activity-pill {
+
+            padding:
+                7px 11px;
+
+            border-radius:
+                20px;
+
+            font-size:
+                9px;
+
+            font-weight:
+                800;
+        }
+
+
+        .activity-low {
+
+            color:
+                var(--green);
+
+            background:
+                var(--green-bg);
+        }
+
+
+        .activity-medium {
+
+            color:
+                var(--yellow);
+
+            background:
+                var(--yellow-bg);
+        }
+
+
+        .activity-high {
+
+            color:
+                var(--red);
+
+            background:
+                var(--red-bg);
+        }
+
+
+        .trend-card {
+
+            margin-top:
+                15px;
+
+            padding:
+                20px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                15px;
+
+            background:
+                white;
+        }
+
+
+        #cdcTrendChart {
+
+            display:
+                block;
+
+            width:
+                100%;
+
+            height:
+                260px;
+        }
+
+
+        .source-note {
+
+            margin-top:
+                12px;
+
+            padding:
+                12px 14px;
+
+            border-left:
+                3px solid
+                var(--teal);
+
+            background:
+                #f2fafb;
+
+            color:
+                #70828b;
+
+            font-size:
+                10px;
+        }
+
+
+        .source-note a {
+
+            color:
+                var(--teal);
+
+            font-weight:
+                800;
+        }
+
+
+        /* =========================================================
+           FORECAST
+        ========================================================== */
+
+        .summary-grid {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(4,1fr);
+
+            gap:
+                14px;
+        }
+
+
+        .summary-card {
+
+            padding:
+                20px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                17px;
+
+            background:
+                white;
+
+            box-shadow:
+                var(--shadow);
+        }
+
+
+        .summary-label {
+
+            color:
+                #768995;
+
+            font-size:
+                10px;
+
+            font-weight:
+                800;
+
+            text-transform:
+                uppercase;
+        }
+
+
+        .summary-value {
+
+            margin-top:
+                5px;
+
+            color:
+                var(--text);
+
+            font-size:
+                28px;
+
+            font-weight:
+                800;
+        }
+
+
+        .summary-small {
+
+            color:
+                #8d9ca4;
+
+            font-size:
+                10px;
+        }
+
+
+        .panel {
+
+            margin-top:
+                15px;
+
+            padding:
+                22px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                18px;
+
+            background:
+                white;
+
+            box-shadow:
+                var(--shadow);
+        }
+
+
+        .panel-title {
+
+            font-size:
+                18px;
+
+            font-weight:
+                800;
+        }
+
+
+        .panel-subtitle {
+
+            margin-top:
+                4px;
+
+            color:
+                var(--muted);
+
+            font-size:
+                11px;
+        }
+
+
+        .forecast-table-wrapper {
+
+            margin-top:
+                18px;
+
+            overflow-x:
+                auto;
+        }
+
+
+        .forecast-table {
+
+            width:
+                100%;
+
+            border-collapse:
+                collapse;
+
+            min-width:
+                700px;
+        }
+
+
+        .forecast-table th,
+        .forecast-table td {
+
+            padding:
+                12px;
+
+            border-bottom:
+                1px solid
+                #edf2f4;
+
+            text-align:
+                left;
+
+            font-size:
+                11px;
+        }
+
+
+        .forecast-table th {
+
+            color:
+                #748690;
+
+            background:
+                #f8fafb;
+        }
+
+
+        .forecast-table td {
+
+            color:
+                #4c6672;
+        }
+
+
+        .forecast-range {
+
+            color:
+                var(--teal);
+
+            font-weight:
+                800;
+        }
+
+
+        /* =========================================================
+           RESOURCES
+        ========================================================== */
+
+        .resource-grid {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(5,1fr);
+
+            gap:
+                14px;
+        }
+
+
+        .resource-card {
+
+            padding:
+                20px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                16px;
+
+            background:
+                white;
+
+            box-shadow:
+                var(--shadow);
+        }
+
+
+        .resource-icon {
+
+            width:
+                35px;
+
+            height:
+                35px;
+
+            display:
+                grid;
+
+            place-items:
+                center;
+
+            border-radius:
+                10px;
+
+            background:
+                #eaf7f8;
+
+            color:
+                var(--teal);
+
+            font-size:
+                9px;
+
+            font-weight:
+                900;
+        }
+
+
+        .resource-name {
+
+            margin-top:
+                10px;
+
+            color:
+                #758792;
+
+            font-size:
+                10px;
+
+            font-weight:
+                800;
+        }
+
+
+        .resource-value {
+
+            margin-top:
+                4px;
+
+            color:
+                var(--text);
+
+            font-size:
+                25px;
+
+            font-weight:
+                800;
+        }
+
+
+        .resource-unit {
+
+            color:
+                #8b9ba3;
+
+            font-size:
+                9px;
+        }
+
+
+        /* =========================================================
+           SUSTAINABILITY
+        ========================================================== */
+
+        .sustainability-grid {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(3,1fr);
+
+            gap:
+                15px;
+        }
+
+
+        .sustainability-card {
+
+            padding:
+                21px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                17px;
+
+            background:
+                white;
+
+            box-shadow:
+                var(--shadow);
+        }
+
+
+        .sustainability-card h4 {
+
+            font-size:
+                14px;
+        }
+
+
+        .big-number {
+
+            margin-top:
+                6px;
+
+            color:
+                var(--teal);
+
+            font-size:
+                30px;
+
+            font-weight:
+                800;
+        }
+
+
+        .small-text {
+
+            color:
+                var(--muted);
+
+            font-size:
+                10px;
+        }
+
+
+        .utilization-bar {
+
+            height:
+                9px;
+
+            margin-top:
+                14px;
+
+            overflow:
+                hidden;
+
+            border-radius:
+                20px;
+
+            background:
+                #e9eff1;
+        }
+
+
+        .utilization-fill {
+
+            height:
+                100%;
+
+            width:
+                82%;
+
+            border-radius:
+                20px;
+
+            background:
+                linear-gradient(
+                    90deg,
+                    var(--teal),
+                    var(--cyan)
+                );
+        }
+
+
+        /* =========================================================
+           EQUITY SEARCH
+        ========================================================== */
+
+        .equity-search-card {
+
+            position:
+                relative;
+
+            margin-top:
+                20px;
+
+            padding:
+                20px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                17px;
+
+            background:
+                white;
+
+            box-shadow:
+                var(--shadow);
+        }
+
+
+        .equity-search-title {
+
+            margin-bottom:
+                9px;
+
+            color:
+                #637985;
+
+            font-size:
+                11px;
+
+            font-weight:
+                800;
+        }
+
+
+        .equity-search-wrapper {
+
+            position:
+                relative;
+        }
+
+
+        .equity-search-wrapper input {
+
+            width:
+                100%;
+
+            height:
+                50px;
+
+            padding:
+                0 58px 0 15px;
+
+            border:
+                1px solid
+                #ccdfe4;
+
+            border-radius:
+                11px;
+
+            outline:
+                none;
+
+            background:
+                #fbfdfe;
+
+            color:
+                var(--text);
+
+            font-size:
+                13px;
+        }
+
+
+        .equity-search-wrapper input:focus {
+
+            border-color:
+                var(--teal);
+
+            box-shadow:
+                0 0 0 4px
+                rgba(8,127,140,.08);
+        }
+
+
+        .equity-search-button {
+
+            position:
+                absolute;
+
+            right:
+                5px;
+
+            top:
+                5px;
+
+            width:
+                40px;
+
+            height:
+                40px;
+
+            display:
+                grid;
+
+            place-items:
+                center;
+
+            border:
+                0;
+
+            border-radius:
+                9px;
+
+            background:
+                var(--teal);
+
+            color:
+                white;
+        }
+
+
+        .equity-search-button:hover {
+
+            background:
+                var(--blue);
+        }
+
+
+        .equity-search-button svg {
+
+            width:
+                18px;
+
+            height:
+                18px;
+        }
+
+
+        .equity-search-helper {
+
+            margin-top:
+                8px;
+
+            color:
+                #8b9ba3;
+
+            font-size:
+                10px;
+        }
+
+
+        /* =========================================================
+           EQUITY SELECTED
+        ========================================================== */
+
+        .equity-selected {
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                space-between;
+
+            gap:
+                15px;
+
+            margin-top:
+                15px;
+
+            padding:
+                16px 18px;
+
+            border:
+                1px solid
+                #d9edf0;
+
+            border-radius:
+                14px;
+
+            background:
+                #f0fafb;
+        }
+
+
+        .equity-selected-label {
+
+            color:
+                #81939b;
+
+            font-size:
+                9px;
+
+            font-weight:
+                800;
+
+            text-transform:
+                uppercase;
+        }
+
+
+        .equity-selected-name {
+
+            margin-top:
+                2px;
+
+            color:
+                var(--blue);
+
+            font-size:
+                19px;
+
+            font-weight:
+                800;
+        }
+
+
+        .equity-selected-status {
+
+            padding:
+                7px 11px;
+
+            border-radius:
+                20px;
+
+            background:
+                #e8f5f7;
+
+            color:
+                var(--teal);
+
+            font-size:
+                9px;
+
+            font-weight:
+                800;
+        }
+
+
+        /* =========================================================
+           EQUITY SUMMARY
+        ========================================================== */
+
+        .equity-summary-grid {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                0.8fr 1.2fr;
+
+            gap:
+                17px;
+
+            margin-top:
+                16px;
+        }
+
+
+        .equity-summary {
+
+            padding:
+                23px;
+
+            border:
+                1px solid
+                #e3d6f0;
+
+            border-radius:
+                18px;
+
+            background:
+                linear-gradient(
+                    145deg,
+                    #faf7fe,
+                    #f4ecfb
+                );
+
+            box-shadow:
+                var(--shadow);
+        }
+
+
+        .equity-summary h3 {
+
+            color:
+                #634590;
+
+            font-size:
+                17px;
+        }
+
+
+        .coverage-number {
+
+            margin-top:
+                7px;
+
+            color:
+                var(--purple);
+
+            font-size:
+                40px;
+
+            font-weight:
+                800;
+        }
+
+
+        .coverage-text {
+
+            color:
+                #776b87;
+
+            font-size:
+                11px;
+        }
+
+
+        .equity-meter {
+
+            height:
+                9px;
+
+            margin:
+                15px 0;
+
+            overflow:
+                hidden;
+
+            border-radius:
+                20px;
+
+            background:
+                #e4dbe9;
+        }
+
+
+        .equity-meter-fill {
+
+            height:
+                100%;
+
+            width:
+                91%;
+
+            background:
+                var(--purple);
+
+            transition:
+                width
+                .4s ease;
+        }
+
+
+        .equity-gap {
+
+            margin-top:
+                15px;
+
+            padding:
+                12px;
+
+            border-radius:
+                11px;
+
+            background:
+                rgba(255,255,255,.7);
+
+            color:
+                #68577a;
+
+            font-size:
+                11px;
+
+            font-weight:
+                700;
+        }
+
+
+        /* =========================================================
+           PRIORITY LIST
+        ========================================================== */
+
+        .priority-list-card {
+
+            padding:
+                22px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                18px;
+
+            background:
+                white;
+
+            box-shadow:
+                var(--shadow);
+        }
+
+
+        .priority-heading {
+
+            margin-bottom:
+                16px;
+        }
+
+
+        .priority-heading h3 {
+
+            font-size:
+                18px;
+        }
+
+
+        .priority-heading p {
+
+            margin-top:
+                3px;
+
+            color:
+                var(--muted);
+
+            font-size:
+                10px;
+        }
+
+
+        .attention-group {
+
+            margin-top:
+                16px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                13px;
+
+            overflow:
+                hidden;
+        }
+
+
+        .attention-group-header {
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            justify-content:
+                space-between;
+
+            gap:
+                15px;
+
+            padding:
+                11px 13px;
+        }
+
+
+        .high-header {
+
+            background:
+                var(--red-bg);
+
+            color:
+                var(--red);
+        }
+
+
+        .medium-header {
+
+            background:
+                var(--yellow-bg);
+
+            color:
+                var(--yellow);
+        }
+
+
+        .low-header {
+
+            background:
+                var(--green-bg);
+
+            color:
+                var(--green);
+        }
+
+
+        .attention-title {
+
+            display:
+                flex;
+
+            align-items:
+                center;
+
+            gap:
+                8px;
+
+            font-size:
+                11px;
+
+            font-weight:
+                900;
+        }
+
+
+        .attention-count {
+
+            padding:
+                4px 8px;
+
+            border-radius:
+                20px;
+
+            background:
+                rgba(255,255,255,.75);
+
+            font-size:
+                9px;
+
+            font-weight:
+                900;
+        }
+
+
+        .attention-items {
+
+            max-height:
+                360px;
+
+            overflow-y:
+                auto;
+        }
+
+
+        .region-item {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                1fr auto auto;
+
+            align-items:
+                center;
+
+            gap:
+                12px;
+
+            padding:
+                12px 13px;
+
+            border-top:
+                1px solid
+                #edf2f4;
+
+            background:
+                white;
+
+            cursor:
+                pointer;
+
+            transition:
+                background .15s;
+        }
+
+
+        .region-item:hover {
+
+            background:
+                #f5fafb;
+        }
+
+
+        .region-item.selected {
+
+            background:
+                #eaf8fa;
+        }
+
+
+        .region-item-name {
+
+            min-width:
+                0;
+
+            overflow:
+                hidden;
+
+            text-overflow:
+                ellipsis;
+
+            white-space:
+                nowrap;
+
+            color:
+                #385765;
+
+            font-size:
+                11px;
+
+            font-weight:
+                700;
+        }
+
+
+        .region-item-coverage {
+
+            font-size:
+                11px;
+
+            font-weight:
+                900;
+        }
+
+
+        .region-item-gap {
+
+            min-width:
+                58px;
+
+            text-align:
+                right;
+
+            color:
+                #84949c;
+
+            font-size:
+                10px;
+        }
+
+
+        .region-item-high {
+
+            color:
+                var(--red);
+        }
+
+
+        .region-item-medium {
+
+            color:
+                var(--yellow);
+        }
+
+
+        .region-item-low {
+
+            color:
+                var(--green);
+        }
+
+
+        .empty-group {
+
+            padding:
+                15px;
+
+            color:
+                #8b9ba3;
+
+            font-size:
+                10px;
+
+            text-align:
+                center;
+        }
+
+
+        /* =========================================================
+           TABLE
+        ========================================================== */
+
+        .equity-table-wrapper {
+
+            margin-top:
+                15px;
+
+            overflow-x:
+                auto;
+        }
+
+
+        .equity-table {
+
+            width:
+                100%;
+
+            min-width:
+                680px;
+
+            border-collapse:
+                collapse;
+        }
+
+
+        .equity-table th,
+        .equity-table td {
+
+            padding:
+                11px 12px;
+
+            text-align:
+                left;
+
+            border-bottom:
+                1px solid
+                #edf2f4;
+
+            font-size:
+                10px;
+        }
+
+
+        .equity-table th {
+
+            color:
+                #6f818d;
+
+            background:
+                #f8fafb;
+        }
+
+
+        .good {
+
+            color:
+                var(--green);
+
+            font-weight:
+                800;
+        }
+
+
+        .warning {
+
+            color:
+                var(--yellow);
+
+            font-weight:
+                800;
+        }
+
+
+        .poor {
+
+            color:
+                var(--red);
+
+            font-weight:
+                800;
+        }
+
+
+        /* =========================================================
+           NOTE
+        ========================================================== */
+
+        .demo-note {
+
+            margin:
+                25px 0 65px;
+
+            padding:
+                13px 16px;
+
+            border:
+                1px dashed
+                #c8d9e0;
+
+            border-radius:
+                12px;
+
+            background:
+                rgba(255,255,255,.65);
+
+            color:
+                #71828b;
+
+            font-size:
+                10px;
+        }
+
+
+        /* =========================================================
+           RESPONSIVE
+        ========================================================== */
+
+        @media(max-width:1200px) {
+
+            .resource-grid {
+                grid-template-columns:
+                    repeat(3,1fr);
+            }
+
+            .cdc-metrics {
+                grid-template-columns:
+                    repeat(2,1fr);
+            }
+
+            .summary-grid {
+                grid-template-columns:
+                    repeat(2,1fr);
+            }
+
+        }
+
+
+        @media(max-width:1000px) {
+
+            .nav-links {
+                display:
+                    none;
+            }
+
+            .hero-content {
+                width:
+                    70%;
+            }
+
+            .medical-animation {
+                right:
+                    -7%;
+
+                opacity:
+                    .45;
+            }
+
+            .equity-summary-grid {
+                grid-template-columns:
+                    1fr;
+            }
+
+            .search-results {
+                right:
+                    28px;
+            }
+
+        }
+
+
+        @media(max-width:760px) {
+
+            .container {
+                width:
+                    92%;
+            }
+
+            .hero {
+                padding:
+                    45px 30px;
+            }
+
+            .hero-content {
+                width:
+                    100%;
+            }
+
+            .medical-animation {
+                display:
+                    none;
+            }
+
+            .dashboard-header {
+                flex-direction:
+                    column;
+
+                align-items:
+                    flex-start;
+            }
+
+            .cdc-search-area {
+                grid-template-columns:
+                    1fr;
+            }
+
+            .selected-region {
+                flex-direction:
+                    column;
+
+                align-items:
+                    flex-start;
+            }
+
+            .equity-selected {
+                flex-direction:
+                    column;
+
+                align-items:
+                    flex-start;
+            }
+
+            .resource-grid {
+                grid-template-columns:
+                    repeat(2,1fr);
+            }
+
+            .sustainability-grid {
+                grid-template-columns:
+                    1fr;
+            }
+
+        }
+
+
+        @media(max-width:540px) {
+
+            .summary-grid {
+                grid-template-columns:
+                    1fr;
+            }
+
+            .cdc-metrics {
+                grid-template-columns:
+                    1fr;
+            }
+
+            .resource-grid {
+                grid-template-columns:
+                    1fr;
+            }
+
+            .system-status {
+                display:
+                    none;
+            }
+
+            .cdc-main {
+                padding:
+                    19px;
+            }
+
+            .search-results {
+                left:
+                    19px;
+
+                right:
+                    19px;
+
+                top:
+                    215px;
+            }
+
+            .region-item {
+
+                grid-template-columns:
+                    1fr auto;
+
+            }
+
+            .region-item-gap {
+                display:
+                    none;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<header class="navbar">
+
+    <a
+        href="#top"
+        class="brand"
+    >
+
+        <span class="brand-icon">
+            +
+        </span>
+
+        <span>
+            HealthPredict
+        </span>
+
+    </a>
+
+
+    <nav class="nav-links">
+
+        <a href="#cdc">
+            CDC
+        </a>
+
+        <a href="#forecast">
+            Forecast
+        </a>
+
+        <a href="#resources">
+            Resources
+        </a>
+
+        <a href="#sustainability">
+            Sustainability
+        </a>
+
+        <a href="#equity">
+            Equity
+        </a>
+
+    </nav>
+
+
+    <div class="system-status">
+
+        <span class="status-dot"></span>
+
+        System Ready
+
+    </div>
+
+</header>
+
+
+
+<main
+    class="container"
+    id="top"
+>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero">
+
+
+    <div class="hero-content">
+
+
+        <div class="hero-badge">
+
+            AI • CDC • HEALTHCARE PLANNING
+
+        </div>
+
+
+        <h1>
+
+            Understand the region.
+            <span>
+                Predict the need.
+            </span>
+
+        </h1>
+
+
+        <p>
+
+            HealthPredict combines healthcare forecasting
+            with regional health context to support
+            hospital resource planning, sustainability
+            and equitable allocation.
+
+        </p>
+
+
+        <button
+            class="hero-button"
+            onclick="
+                document
+                    .getElementById('cdc')
+                    .scrollIntoView({
+                        behavior:'smooth'
+                    })
+            "
+        >
+
+            View Dashboard ↓
+
+        </button>
+
+    </div>
+
+
+
+    <!-- MEDICAL ANIMATION -->
+
+    <div
+        class="medical-animation"
+        aria-hidden="true"
+    >
+
+        <div
+            class="medical-circle circle-one"
+        ></div>
+
+        <div
+            class="medical-circle circle-two"
+        ></div>
+
+        <div
+            class="medical-circle circle-three"
+        ></div>
+
+        <div class="medical-cross"></div>
+
+
+        <div class="ecg">
+
+            <svg
+                viewBox="0 0 390 100"
+                preserveAspectRatio="none"
+            >
+
+                <polyline
+                    class="ecg-line"
+                    points="
+                        0,50
+                        50,50
+                        70,50
+                        82,20
+                        94,80
+                        108,50
+                        150,50
+                        175,50
+                        190,35
+                        205,65
+                        220,50
+                        270,50
+                        295,50
+                        307,20
+                        320,80
+                        334,50
+                        390,50
+                    "
+                />
+
+            </svg>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- =========================================================
+     CDC DASHBOARD
+========================================================= -->
+
+<section
+    class="dashboard-header"
+    id="cdc"
+>
+
+
+    <div class="dashboard-title">
+
+
+        <div class="eyebrow">
+            CDC Regional Intelligence
+        </div>
+
+
+        <h2>
+            Predictive Dashboard
+        </h2>
+
+
+
+    </div>
+
+
+    <div class="live-label">
+
+        <span class="status-dot"></span>
+
+        CDC CONTEXT
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     FORECAST
+========================================================= -->
+
+<section
+    class="section"
+    id="forecast"
+>
+
+
+    <div class="section-heading">
+
+
+        <div class="eyebrow">
+            Demand Forecast
+        </div>
+
+
+        <h2>
+            Hospital Demand Forecast
+        </h2>
+
+
+        <p>
+            Forecast demand shown with an uncertainty range.
+        </p>
+
+
+    </div>
+
+
+
+    <div class="summary-grid">
+
+
+        <article class="summary-card">
+
+            <div class="summary-label">
+                Expected Demand
+            </div>
+
+            <div
+                id="expectedDemand"
+                class="summary-value"
+            >
+                23
+            </div>
+
+            <div class="summary-small">
+                predicted admissions
+            </div>
+
+        </article>
+
+
+        <article class="summary-card">
+
+            <div class="summary-label">
+                Planning Range
+            </div>
+
+            <div
+                id="planningRange"
+                class="summary-value"
+            >
+                21–27
+            </div>
+
+            <div class="summary-small">
+                lower–upper range
+            </div>
+
+        </article>
+
+
+        <article class="summary-card">
+
+            <div class="summary-label">
+                MAE
+            </div>
+
+            <div class="summary-value">
+                1.14
+            </div>
+
+            <div class="summary-small">
+                mean absolute error
+            </div>
+
+        </article>
+
+
+        <article class="summary-card">
+
+            <div class="summary-label">
+                RMSE
+            </div>
+
+            <div class="summary-value">
+                1.20
+            </div>
+
+            <div class="summary-small">
+                root mean square error
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+
+    <div class="panel">
+
+
+        <div class="panel-title">
+            7-Day Admission Forecast
+        </div>
+
+
+        <div class="panel-subtitle">
+            Plan resources against the upper end of the forecast.
+        </div>
+
+
+        <div class="forecast-table-wrapper">
+
+
+            <table class="forecast-table">
+
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Date
+                        </th>
+
+                        <th>
+                            Expected
+                        </th>
+
+                        <th>
+                            Lower
+                        </th>
+
+                        <th>
+                            Upper
+                        </th>
+
+                        <th>
+                            Planning Range
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="forecastRows"></tbody>
+
+
+            </table>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================================
+     CDC SEARCH CARD
+========================================================= -->
+
+<section class="cdc-main">
+
+
+    <div class="cdc-top">
+
+
+        <div class="cdc-heading">
+
+
+            <div class="cdc-logo">
+                CDC
+            </div>
+
+
+            <div>
+
+                <h3>
+                    CDC Regional Health Search
+                </h3>
+
+
+                <p>
+
+                    Respiratory Health Trends
+                    Monitor recent respiratory disease activity to provide
+                    additional context for hospital resource planning.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="cdc-tag">
+            EXTERNAL HEALTH CONTEXT
+        </div>
+
+
+    </div>
+
+
+
+    <div class="search-title">
+        Search CDC Geography
+    </div>
+
+
+    <div class="cdc-search-area">
+
+
+        <!-- INPUT -->
+
+        <div>
+
+
+            <div class="search-wrapper">
+
+
+                <input
+                    id="cdcSearch"
+                    type="text"
+                    placeholder="Search a geography..."
+                    autocomplete="off"
+                >
+
+
+                <button
+                    id="cdcSearchButton"
+                    class="search-button"
+                    type="button"
+                    title="Search"
+                >
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.2"
+                    >
+
+                        <circle
+                            cx="11"
+                            cy="11"
+                            r="7"
+                        ></circle>
+
+                        <line
+                            x1="16.5"
+                            y1="16.5"
+                            x2="21"
+                            y2="21"
+                        ></line>
+
+                    </svg>
+
+                </button>
+
+            </div>
+
+
+            <div
+                id="cdcSearchResults"
+                class="search-results"
+            ></div>
+
+        </div>
+
+
+
+        <!-- DROPDOWN -->
+
+        <div>
+
+            <select
+                id="cdcGeography"
+                class="region-select"
+            >
+
+                <option value="">
+                    Loading 52 geographies...
+                </option>
+
+            </select>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- SELECTED CDC REGION -->
+
+    <div class="selected-region">
+
+
+        <div>
+
+            <div class="selected-label">
+                Selected Geography
+            </div>
+
+
+            <div
+                id="selectedRegionName"
+                class="selected-name"
+            >
+                No region selected
+            </div>
+
+        </div>
+
+
+        
+    </div>
+
+
+
+    <div
+        id="cdcLoading"
+        class="loading"
+    >
+
+        <span class="spinner"></span>
+
+        Loading regional information...
+
+    </div>
+
+
+
+    <!-- CDC INFORMATION -->
+
+    <div
+        id="regionInformation"
+        class="region-information"
+    >
+
+
+        <div class="region-info-header">
+
+
+            <h3>
+                Regional Health Information
+            </h3>
+
+
+            <div
+                id="cdcUpdated"
+                class="metric-small"
+            >
+                Latest available data
+            </div>
+
+
+        </div>
+
+
+
+        <div class="cdc-metrics">
+
+
+            <article class="cdc-metric">
+
+                <div class="metric-label">
+                    COVID-19
+                </div>
+
+                <div
+                    id="cdcCovid"
+                    class="metric-value"
+                >
+                    —
+                </div>
+
+                <div class="metric-small">
+                    Regional indicator
+                </div>
+
+            </article>
+
+
+            <article class="cdc-metric">
+
+                <div class="metric-label">
+                    Influenza
+                </div>
+
+                <div
+                    id="cdcFlu"
+                    class="metric-value"
+                >
+                    —
+                </div>
+
+                <div class="metric-small">
+                    Regional indicator
+                </div>
+
+            </article>
+
+
+            <article class="cdc-metric">
+
+                <div class="metric-label">
+                    RSV
+                </div>
+
+                <div
+                    id="cdcRsv"
+                    class="metric-value"
+                >
+                    —
+                </div>
+
+                <div class="metric-small">
+                    Regional indicator
+                </div>
+
+            </article>
+
+
+            <article class="cdc-metric">
+
+                <div class="metric-label">
+                    Respiratory Activity
+                </div>
+
+                <div
+                    id="cdcRespiratory"
+                    class="metric-value"
+                >
+                    —
+                </div>
+
+                <div class="metric-small">
+                    Regional activity
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+
+        <div class="activity-card">
+
+
+            <div class="activity-row">
+
+                <strong>
+                    Respiratory Activity Level
+                </strong>
+
+
+                <span
+                    id="ariActivity"
+                    class="activity-pill activity-low"
+                >
+                    —
+                </span>
+
+            </div>
+
+
+            <div
+                id="ariDescription"
+                class="metric-small"
+                style="margin-top:7px"
+            >
+                Select a region to retrieve information.
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="trend-card">
+
+
+            <div style="margin-bottom:10px">
+
+                <strong>
+                    12-Week Regional Trend
+                </strong>
+
+                <div class="metric-small">
+                    Respiratory-health trend for the selected geography
+                </div>
+
+            </div>
+
+
+            <canvas
+                id="cdcTrendChart"
+            ></canvas>
+
+
+        </div>
+
+
+
+        <div class="source-note">
+
+            <strong>
+                CDC data source:
+            </strong>
+
+            external respiratory-health surveillance context.
+
+            <br><br>
+
+            <a
+                href="https://www.cdc.gov/respiratory-viruses/data/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Open CDC Data ↗
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     RESOURCES
+========================================================= -->
+
+<section
+    class="section"
+    id="resources"
+>
+
+
+    <div class="section-heading">
+
+
+        <div class="eyebrow">
+            Resource Planning
+        </div>
+
+
+        <h2>
+            Required Hospital Resources
+        </h2>
+
+
+        <p>
+            Estimated resource requirements from projected demand.
+        </p>
+
+
+    </div>
+
+
+
+    <div class="resource-grid">
+
+
+        <article class="resource-card">
+
+            <div class="resource-icon">
+                ICU
+            </div>
+
+            <div class="resource-name">
+                ICU Admissions
+            </div>
+
+            <div
+                id="icuRequirement"
+                class="resource-value"
+            >
+                7
+            </div>
+
+            <div class="resource-unit">
+                required
+            </div>
+
+        </article>
+
+
+
+        <article class="resource-card">
+
+            <div class="resource-icon">
+                BED
+            </div>
+
+            <div class="resource-name">
+                General Beds
+            </div>
+
+            <div
+                id="bedRequirement"
+                class="resource-value"
+            >
+                17
+            </div>
+
+            <div class="resource-unit">
+                required
+            </div>
+
+        </article>
+
+
+
+        <article class="resource-card">
+
+            <div class="resource-icon">
+                SUP
+            </div>
+
+            <div class="resource-name">
+                Medical Supplies
+            </div>
+
+            <div
+                id="supplyRequirement"
+                class="resource-value"
+            >
+                46
+            </div>
+
+            <div class="resource-unit">
+                units
+            </div>
+
+        </article>
+
+
+
+        <article class="resource-card">
+
+            <div class="resource-icon">
+                EQP
+            </div>
+
+            <div class="resource-name">
+                Equipment
+            </div>
+
+            <div
+                id="equipmentRequirement"
+                class="resource-value"
+            >
+                10
+            </div>
+
+            <div class="resource-unit">
+                units
+            </div>
+
+        </article>
+
+
+
+        <article class="resource-card">
+
+            <div class="resource-icon">
+                STF
+            </div>
+
+            <div class="resource-name">
+                Staff
+            </div>
+
+            <div
+                id="staffRequirement"
+                class="resource-value"
+            >
+                28
+            </div>
+
+            <div class="resource-unit">
+                required
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SUSTAINABILITY
+========================================================= -->
+
+<section
+    class="section"
+    id="sustainability"
+>
+
+
+    <div class="section-heading">
+
+        <div class="eyebrow">
+            SDG 3 • Sustainability
+        </div>
+
+        <h2>
+            Sustainable Resource Planning
+        </h2>
+
+        <p>
+            Monitor utilization and potential surplus.
+        </p>
+
+    </div>
+
+
+
+    <div class="sustainability-grid">
+
+
+        <article class="sustainability-card">
+
+            <h4>
+                Resource Utilization
+            </h4>
+
+
+            <div class="big-number">
+                82%
+            </div>
+
+
+            <div class="small-text">
+                Estimated utilization
+            </div>
+
+
+            <div class="utilization-bar">
+
+                <div
+                    class="utilization-fill"
+                ></div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="sustainability-card">
+
+            <h4>
+                Potential Surplus
+            </h4>
+
+
+            <div class="big-number">
+                8%
+            </div>
+
+
+            <div class="small-text">
+                Potential avoidable surplus
+            </div>
+
+        </article>
+
+
+
+        <article class="sustainability-card">
+
+            <h4>
+                Planning Efficiency
+            </h4>
+
+
+            <div class="big-number">
+                +14
+            </div>
+
+
+            <div class="small-text">
+                Safety-buffer units
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     EQUITY DASHBOARD
+========================================================= -->
+
+<section
+    class="section"
+    id="equity"
+>
+
+
+    <div class="section-heading">
+
+
+        <div class="eyebrow">
+            SDG 10 • Equity
+        </div>
+
+
+        <h2>
+            Regional Equity Dashboard
+        </h2>
+
+
+        <p>
+            The full 52-region list is automatically sorted by attention level.
+        </p>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         EQUITY SEARCH AT TOP
+    ====================================================== -->
+
+        
+
+
+
+    <!-- =====================================================
+         SELECTED EQUITY REGION
+    ====================================================== -->
+
+    <div class="equity-selected">
+
+
+        <div>
+
+
+            <div class="equity-selected-label">
+                Selected Region
+            </div>
+
+
+            <div
+                id="equitySelectedName"
+                class="equity-selected-name"
+            >
+                All Regions
+            </div>
+
+
+        </div>
+
+
+        <div
+            id="equitySelectedStatus"
+            class="equity-selected-status"
+        >
+            OVERVIEW
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         EQUITY SUMMARY + PRIORITY LIST
+    ====================================================== -->
+
+    <div class="equity-summary-grid">
+
+
+        <!-- SUMMARY -->
+
+        <article class="equity-summary">
+
+
+            <h3>
+                Regional Coverage
+            </h3>
+
+
+            <div
+                id="equityCoverageNumber"
+                class="coverage-number"
+            >
+                91%
+            </div>
+
+
+            <div class="coverage-text">
+
+                Allocated capacity relative
+                to projected demand.
+
+            </div>
+
+
+            <div class="equity-meter">
+
+
+                <div
+                    id="equityMeter"
+                    class="equity-meter-fill"
+                ></div>
+
+
+            </div>
+
+
+            <div class="coverage-text">
+
+                Coverage ratio:
+
+                <strong
+                    id="equityCoverageRatio"
+                >
+                    0.91
+                </strong>
+
+            </div>
+
+
+            <div
+                id="equityGap"
+                class="equity-gap"
+            >
+
+                Search or click a region
+                to inspect its capacity gap.
+
+            </div>
+
+
+        </article>
+
+
+
+        <!-- PRIORITY LIST -->
+
+        <article class="priority-list-card">
+
+
+            <div class="priority-heading">
+
+
+                <h3>
+                    Attention-Prioritized Regions
+                </h3>
+
+
+                <p>
+
+                    All available regions are automatically
+                    arranged from highest to lowest attention.
+
+                </p>
+
+
+            </div>
+
+
+
+            <!-- HIGH -->
+
+            <div class="attention-group">
+
+
+                <div
+                    class="
+                        attention-group-header
+                        high-header
+                    "
+                >
+
+                    <div class="attention-title">
+
+                        🔴
+                        HIGH ATTENTION
+
+                    </div>
+
+
+                    <div
+                        id="highCount"
+                        class="attention-count"
+                    >
+                        0
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="highRegions"
+                    class="attention-items"
+                ></div>
+
+
+            </div>
+
+
+
+            <!-- MEDIUM -->
+
+            <div class="attention-group">
+
+
+                <div
+                    class="
+                        attention-group-header
+                        medium-header
+                    "
+                >
+
+                    <div class="attention-title">
+
+                        🟠
+                        MEDIUM ATTENTION
+
+                    </div>
+
+
+                    <div
+                        id="mediumCount"
+                        class="attention-count"
+                    >
+                        0
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="mediumRegions"
+                    class="attention-items"
+                ></div>
+
+
+            </div>
+
+
+
+            <!-- LOW -->
+
+            <div class="attention-group">
+
+
+                <div
+                    class="
+                        attention-group-header
+                        low-header
+                    "
+                >
+
+                    <div class="attention-title">
+
+                        🟢
+                        LOW ATTENTION
+
+                    </div>
+
+
+                    <div
+                        id="lowCount"
+                        class="attention-count"
+                    >
+                        0
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="lowRegions"
+                    class="attention-items"
+                ></div>
+
+
+            </div>
+
+
+        </article>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         SELECTED REGION DETAIL TABLE
+    ====================================================== -->
+
+    
+
+
+
+<!-- =========================================================
+     INTEGRATION NOTE
+========================================================= -->
+
+<div class="demo-note">
+
+    <strong>
+        Integration:
+    </strong>
+
+    the CDC geography list is loaded from
+    <strong>
+        get_available_geographies()
+    </strong>
+    through the geography API.
+
+    The Equity Dashboard uses the same 52 geography names
+    and can receive actual regional demand/capacity values
+    from the Equity backend.
+
+    During frontend-only testing, fallback demonstration
+    values are generated so the complete 52-region
+    priority list remains visible.
+
+</div>
+
+
+
+</main>
+
+
+
+<script>
+
+
+/* =========================================================
+   API CONFIGURATION
+========================================================= */
+
+const API = {
+
+    /*
+        Backend function:
+        get_available_geographies()
+    */
+
+    geographies:
+        "/api/cdc/geographies",
+
+
+    /*
+        Backend function:
+        get_cdc_summary(geography)
+    */
+
+    cdcSummary:
+        "/api/cdc/summary",
+
+
+    /*
+        Expected response:
+
+        [
+            {
+                "region": "Region Name",
+                "demand": 65,
+                "allocated": 50
+            },
+            ...
+        ]
+
+        The endpoint is optional.
+        If unavailable, the frontend creates
+        clearly marked demo values.
+    */
+
+    equity:
+        "/api/equity/regions"
+
+};
+
+
+
+/* =========================================================
+   FALLBACK 52 GEOGRAPHIES
+========================================================= */
+
+const fallbackGeographies = Array.from(
+    {
+        length: 52
+    },
+    (
+        _,
+        index
+    ) =>
+        `Region ${String(index + 1).padStart(2,"0")}`
+);
+
+
+
+/* =========================================================
+   GLOBAL STATE
+========================================================= */
+
+let cdcGeographies = [];
+let currentCDCRegion = "";
+let currentCDCTrend = [];
+let equityData = [];
+let selectedEquityRegion = "";
+
+/* =========================================================
+   CDC ELEMENTS
+========================================================= */
+
+const cdcSearch =
+    document.getElementById(
+        "cdcSearch"
+    );
+
+
+const cdcSearchButton =
+    document.getElementById(
+        "cdcSearchButton"
+    );
+
+
+const cdcSearchResults =
+    document.getElementById(
+        "cdcSearchResults"
+    );
+
+
+const cdcGeography =
+    document.getElementById(
+        "cdcGeography"
+    );
+
+
+const selectedRegionName =
+    document.getElementById(
+        "selectedRegionName"
+    );
+
+
+const getRegionButton =
+    document.getElementById(
+        "getRegionButton"
+    );
+
+
+const cdcLoading =
+    document.getElementById(
+        "cdcLoading"
+    );
+
+
+const regionInformation =
+    document.getElementById(
+        "regionInformation"
+    );
+
+
+
+/* =========================================================
+   EQUITY ELEMENTS
+========================================================= */
+
+
+
+const equitySelectedName =
+    document.getElementById(
+        "equitySelectedName"
+    );
+
+
+const equitySelectedStatus =
+    document.getElementById(
+        "equitySelectedStatus"
+    );
+
+
+const equityCoverageNumber =
+    document.getElementById(
+        "equityCoverageNumber"
+    );
+
+
+const equityCoverageRatio =
+    document.getElementById(
+        "equityCoverageRatio"
+    );
+
+
+const equityMeter =
+    document.getElementById(
+        "equityMeter"
+    );
+
+
+const equityGap =
+    document.getElementById(
+        "equityGap"
+    );
+
+
+const equityDetailsRows =
+    document.getElementById(
+        "equityDetailsRows"
+    );
+
+
+
+/* =========================================================
+   LOAD CDC GEOGRAPHIES
+========================================================= */
+
+async function loadGeographies() {
+
+    try {
+
+        const response =
+            await fetch("cdc_data.json");
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                "CDC Data Unavailable!"
+            );
+
+        }
+
+
+        const data =
+            await response.json();
+
+
+        if (
+            Array.isArray(data)
+        ) {
+
+            cdcGeographies =
+                data;
+
+        }
+        else if (
+            Array.isArray(
+                data.geographies
+            )
+        ) {
+
+            cdcGeographies =
+                data.geographies;
+
+        }
+        else {
+
+            throw new Error(
+                "Invalid geography response"
+            );
+
+        }
+
+
+    }
+    catch (error) {
+
+        console.warn(
+            "Using fallback geography list:",
+            error
+        );
+
+
+        cdcGeographies =
+            [...fallbackGeographies];
+
+    }
+
+
+    /*
+        Make sure the frontend has exactly
+        the available 52 entries.
+
+        The real backend list takes priority.
+    */
+
+    if (
+        cdcGeographies.length === 0
+    ) {
+
+        cdcGeographies =
+            [...fallbackGeographies];
+
+    }
+
+
+    populateCDCGeographyDropdown();
+
+}
+
+
+/* =========================================================
+   POPULATE CDC DROPDOWN
+========================================================= */
+
+function populateCDCGeographyDropdown(
+    list = cdcGeographies
+) {
+
+    cdcGeography.innerHTML = "";
+
+
+    list.forEach(
+        function(geography) {
+
+            const option =
+                document.createElement(
+                    "option"
+                );
+
+
+            option.value =
+                geography;
+
+
+            option.textContent =
+                geography;
+
+
+            cdcGeography.appendChild(
+                option
+            );
+
+        }
+    );
+
+}
+
+
+
+/* =========================================================
+   CDC SEARCH
+========================================================= */
+
+function searchCDCGeographies() {
+
+    const query =
+        cdcSearch.value
+            .trim()
+            .toLowerCase();
+
+
+    if (!query) {
+
+        cdcSearchResults.style.display =
+            "none";
+
+        return;
+
+    }
+
+
+    const matches =
+        cdcGeographies.filter(
+            geography =>
+                geography
+                    .toLowerCase()
+                    .includes(query)
+        );
+
+
+    cdcSearchResults.innerHTML =
+        "";
+
+
+    cdcSearchResults.style.display =
+        "block";
+
+
+    if (
+        matches.length === 0
+    ) {
+
+        cdcSearchResults.innerHTML = `
+
+            <div class="no-results">
+
+                No matching geography found.
+
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    matches.forEach(
+        function(geography) {
+
+            const button =
+                document.createElement(
+                    "button"
+                );
+
+
+            button.type =
+                "button";
+
+
+            button.className =
+                "search-result";
+
+
+            button.textContent =
+                geography;
+
+
+            button.addEventListener(
+                "click",
+                function() {
+
+                    chooseCDCRegion(
+                        geography
+                    );
+
+
+                    cdcSearchResults.style.display =
+                        "none";
+
+                }
+            );
+
+
+            cdcSearchResults.appendChild(
+                button
+            );
+
+        }
+    );
+
+}
+
+
+
+/* =========================================================
+   CHOOSE CDC REGION
+========================================================= */
+
+function chooseCDCRegion(
+    geography
+) {
+
+    currentCDCRegion =
+        geography;
+
+
+    cdcSearch.value =
+        geography;
+
+
+    selectedRegionName.textContent =
+        geography;
+
+
+    cdcGeography.value =
+        geography;
+
+}
+
+
+
+/* =========================================================
+   SEARCH ICON CDC
+========================================================= */
+
+cdcSearchButton.addEventListener(
+    "click",
+    function() {
+
+        const query =
+            cdcSearch.value
+                .trim()
+                .toLowerCase();
+
+
+        if (!query) {
+
+            cdcSearch.focus();
+
+            return;
+
+        }
+
+
+        const exact =
+            cdcGeographies.find(
+                geography =>
+                    geography
+                        .toLowerCase() ===
+                    query
+            );
+
+
+        const partial =
+            cdcGeographies.find(
+                geography =>
+                    geography
+                        .toLowerCase()
+                        .includes(query)
+            );
+
+
+        const match =
+            exact ||
+            partial;
+
+
+        if (match) {
+
+            chooseCDCRegion(
+                match
+            );
+
+
+            getCDCInformation(
+                match
+            );
+
+        }
+        else {
+
+            searchCDCGeographies();
+
+        }
+
+    }
+);
+
+
+
+/* =========================================================
+   CDC INPUT
+========================================================= */
+
+cdcSearch.addEventListener(
+    "input",
+    searchCDCGeographies
+);
+
+
+cdcSearch.addEventListener(
+    "keydown",
+    function(event) {
+
+        if (
+            event.key === "Enter"
+        ) {
+
+            event.preventDefault();
+
+            cdcSearchButton.click();
+
+        }
+
+    }
+);
+
+
+
+/* =========================================================
+   CDC DROPDOWN
+========================================================= */
+
+cdcGeography.addEventListener(
+    "change",
+    function() {
+
+        if (!this.value) {
+            return;
+        }
+
+
+        chooseCDCRegion(
+            this.value
+        );
+
+    }
+);
+
+
+
+/* =========================================================
+   GET CDC INFORMATION
+========================================================= */
+
+async function getCDCInformation(
+    geography
+) {
+
+    if (!geography) {
+        return;
+
+    }
+    chooseCDCRegion(
+        geography
+    );
+    cdcLoading.style.display =
+        "flex";
+
+    regionInformation.style.display =
+        "none";
+
+
+    try {
+    const response =
+        await fetch(
+            "cdc_data.json"
+        );
+
+    if (!response.ok) {
+
+        throw new Error(
+            "CDC data file unavailable"
+        );
+
+    }
+
+    const allCDCData =
+        await response.json();
+
+    const data =
+        allCDCData.summaries[geography];
+
+    if (!data) {
+
+        throw new Error(
+            "No CDC data found for selected geography"
+        );
+
+    }
+    displayCDCData(
+        data
+    );
+
+
+    }
+    catch (error) {
+
+        console.warn(
+            "Using CDC demo fallback:",
+            error
+        );
+
+
+        displayCDCData(
+            createDemoCDCData(
+                geography
+            )
+        );
+
+    }
+    finally {
+
+        cdcLoading.style.display =
+            "none";
+
+
+        regionInformation.style.display =
+            "block";
+
+    }
+
+}
+
+
+
+/* =========================================================
+   DISPLAY CDC DATA
+========================================================= */
+
+function displayCDCData(
+    data
+) {
+
+    const covid =
+        data.covid ??
+        data.COVID ??
+        data.covid19 ??
+        "—";
+
+
+    const flu =
+        data.influenza ??
+        data.flu ??
+        "—";
+
+
+    const rsv =
+        data.rsv ??
+        data.RSV ??
+        "—";
+
+
+    const respiratory =
+        data.respiratory_activity ??
+        data.respiratory ??
+        data.ari ??
+        "—";
+
+
+    const activity =
+        data.ari_activity ??
+        data.activity_level ??
+        "—";
+
+
+    const description =
+        data.ari_description ??
+        data.activity_description ??
+        "Regional respiratory activity information.";
+
+
+    const updated =
+        data.updated ??
+        data.last_updated ??
+        "Latest available data";
+
+
+    const trend =
+        data.trend ??
+        data.trend_12_weeks ??
+        data.respiratory_trend ??
+        [];
+
+
+    document.getElementById(
+        "cdcCovid"
+    ).textContent =
+        formatMetric(
+            covid
+        );
+
+
+    document.getElementById(
+        "cdcFlu"
+    ).textContent =
+        formatMetric(
+            flu
+        );
+
+
+    document.getElementById(
+        "cdcRsv"
+    ).textContent =
+        formatMetric(
+            rsv
+        );
+
+
+    document.getElementById(
+        "cdcRespiratory"
+    ).textContent =
+        formatMetric(
+            respiratory
+        );
+
+
+    document.getElementById(
+        "ariActivity"
+    ).textContent =
+        activity;
+
+
+    document.getElementById(
+        "ariDescription"
+    ).textContent =
+        description;
+
+
+    document.getElementById(
+        "cdcUpdated"
+    ).textContent =
+        `Updated: ${updated}`;
+
+
+    styleActivity(
+        activity
+    );
+
+
+    currentCDCTrend =
+        Array.isArray(trend)
+            ? trend
+            : [];
+
+
+    drawCDCTrend(
+        currentCDCTrend
+    );
+
+}
+
+
+
+/* =========================================================
+   FORMAT
+========================================================= */
+
+function formatMetric(
+    value
+) {
+
+    if (
+        value === null ||
+        value === undefined
+    ) {
+
+        return "—";
+
+    }
+
+
+    if (
+        typeof value === "number"
+    ) {
+
+        return value.toFixed(1);
+
+    }
+
+
+    return String(value);
+
+}
+
+
+
+/* =========================================================
+   ACTIVITY STYLE
+========================================================= */
+
+function styleActivity(
+    activity
+) {
+
+    const element =
+        document.getElementById(
+            "ariActivity"
+        );
+
+
+    element.className =
+        "activity-pill";
+
+
+    const text =
+        String(activity)
+            .toLowerCase();
+
+
+    if (
+        text.includes("high")
+    ) {
+
+        element.classList.add(
+            "activity-high"
+        );
+
+    }
+    else if (
+        text.includes("moderate") ||
+        text.includes("medium")
+    ) {
+
+        element.classList.add(
+            "activity-medium"
+        );
+
+    }
+    else {
+
+        element.classList.add(
+            "activity-low"
+        );
+
+    }
+
+}
+
+
+
+/* =========================================================
+   DEMO CDC DATA
+========================================================= */
+
+function createDemoCDCData(
+    geography
+) {
+
+    let seed = 0;
+
+
+    for (
+        let i = 0;
+        i < geography.length;
+        i++
+    ) {
+
+        seed +=
+            geography.charCodeAt(i);
+
+    }
+
+
+    const covid =
+        1 +
+        (
+            seed % 40
+        ) / 10;
+
+
+    const flu =
+        2 +
+        (
+            seed % 50
+        ) / 10;
+
+
+    const rsv =
+        0.5 +
+        (
+            seed % 20
+        ) / 10;
+
+
+    const respiratory =
+        covid +
+        flu +
+        rsv;
+
+
+    let activity =
+        "Low";
+
+
+    if (
+        respiratory >= 10
+    ) {
+
+        activity =
+            "High";
+
+    }
+    else if (
+        respiratory >= 7
+    ) {
+
+        activity =
+            "Moderate";
+
+    }
+
+
+    const trend = [];
+
+
+    for (
+        let i = 0;
+        i < 12;
+        i++
+    ) {
+
+        trend.push(
+            Number(
+                Math.max(
+                    0,
+                    respiratory -
+                    (11 - i) *
+                    0.3 +
+                    Math.sin(i) *
+                    0.4
+                ).toFixed(2)
+            )
+        );
+
+    }
+
+
+    return {
+
+        covid:
+            Number(
+                covid.toFixed(1)
+            ),
+
+        influenza:
+            Number(
+                flu.toFixed(1)
+            ),
+
+        rsv:
+            Number(
+                rsv.toFixed(1)
+            ),
+
+        respiratory_activity:
+            Number(
+                respiratory.toFixed(1)
+            ),
+
+        ari_activity:
+            activity,
+
+        ari_description:
+            "Demo value shown while the CDC backend is unavailable.",
+
+        updated:
+            "Demo",
+
+        trend:
+            trend
+
+    };
+
+}
+
+
+
+/* =========================================================
+   CDC CHART
+========================================================= */
+
+function drawCDCTrend(
+    values
+) {
+
+    const canvas =
+        document.getElementById(
+            "cdcTrendChart"
+        );
+
+
+    const ctx =
+        canvas.getContext(
+            "2d"
+        );
+
+
+    const rect =
+        canvas.getBoundingClientRect();
+
+
+    const width =
+        Math.max(
+            300,
+            rect.width
+        );
+
+
+    const height =
+        260;
+
+
+    const dpr =
+        window.devicePixelRatio ||
+        1;
+
+
+    canvas.width =
+        width * dpr;
+
+
+    canvas.height =
+        height * dpr;
+
+
+    ctx.setTransform(
+        dpr,
+        0,
+        0,
+        dpr,
+        0,
+        0
+    );
+
+
+    ctx.clearRect(
+        0,
+        0,
+        width,
+        height
+    );
+
+
+    if (
+        !values.length
+    ) {
+
+        ctx.fillStyle =
+            "#8999a1";
+
+        ctx.font =
+            "12px Arial";
+
+        ctx.textAlign =
+            "center";
+
+        ctx.fillText(
+            "No 12-week trend available.",
+            width / 2,
+            height / 2
+        );
+
+        return;
+
+    }
+
+
+    const left =
+        40;
+
+    const right =
+        20;
+
+    const top =
+        20;
+
+    const bottom =
+        30;
+
+
+    const min =
+        Math.min(
+            ...values
+        );
+
+
+    const max =
+        Math.max(
+            ...values
+        );
+
+
+    const range =
+        Math.max(
+            1,
+            max - min
+        );
+
+
+    const plotWidth =
+        width -
+        left -
+        right;
+
+
+    const plotHeight =
+        height -
+        top -
+        bottom;
+
+
+    function x(index) {
+
+        return (
+            left +
+            (
+                index /
+                Math.max(
+                    1,
+                    values.length - 1
+                )
+            ) *
+            plotWidth
+        );
+
+    }
+
+
+    function y(value) {
+
+        return (
+            top +
+            (
+                (max - value) /
+                range
+            ) *
+            plotHeight
+        );
+
+    }
+
+
+    /* GRID */
+
+    ctx.strokeStyle =
+        "#e9eff1";
+
+
+    for (
+        let i = 0;
+        i <= 4;
+        i++
+    ) {
+
+        const yy =
+            top +
+            (
+                i / 4
+            ) *
+            plotHeight;
+
+
+        ctx.beginPath();
+
+        ctx.moveTo(
+            left,
+            yy
+        );
+
+        ctx.lineTo(
+            width - right,
+            yy
+        );
+
+        ctx.stroke();
+
+    }
+
+
+    /* LINE */
+
+    ctx.beginPath();
+
+
+    values.forEach(
+        function(
+            value,
+            index
+        ) {
+
+            if (
+                index === 0
+            ) {
+
+                ctx.moveTo(
+                    x(index),
+                    y(value)
+                );
+
+            }
+            else {
+
+                ctx.lineTo(
+                    x(index),
+                    y(value)
+                );
+
+            }
+
+        }
+    );
+
+
+    ctx.strokeStyle =
+        "#087f8c";
+
+    ctx.lineWidth =
+        3;
+
+    ctx.stroke();
+
+
+    /* POINTS */
+
+    values.forEach(
+        function(
+            value,
+            index
+        ) {
+
+            ctx.beginPath();
+
+            ctx.arc(
+                x(index),
+                y(value),
+                4,
+                0,
+                Math.PI * 2
+            );
+
+            ctx.fillStyle =
+                "#087f8c";
+
+            ctx.fill();
+
+        }
+    );
+
+
+    /* LABELS */
+
+    ctx.fillStyle =
+        "#8999a1";
+
+    ctx.font =
+        "10px Arial";
+
+    ctx.textAlign =
+        "center";
+
+
+    values.forEach(
+        function(
+            _,
+            index
+        ) {
+
+            ctx.fillText(
+                `W${index + 1}`,
+                x(index),
+                height - 8
+            );
+
+        }
+    );
+
+}
+
+
+
+/* =========================================================
+   FORECAST DATA
+========================================================= */
+
+let forecastData = [];
+
+
+/* =========================================================
+   FORECAST TABLE
+========================================================= */
+
+function renderForecastTable() {
+
+    const body =
+        document.getElementById(
+            "forecastRows"
+        );
+
+
+    body.innerHTML = "";
+
+
+    forecastData.forEach(
+        row => {
+
+            const tr =
+                document.createElement(
+                    "tr"
+                );
+
+
+            tr.innerHTML = `
+
+                <td>
+                    ${row.date}
+                </td>
+
+                <td>
+                    <strong>
+                        ${row.expected}
+                    </strong>
+                </td>
+
+                <td>
+                    ${row.lower}
+                </td>
+
+                <td>
+                    ${row.upper}
+                </td>
+
+                <td class="forecast-range">
+                    ${row.lower}
+                    –
+                    ${row.upper}
+                </td>
+
+            `;
+
+
+            body.appendChild(
+                tr
+            );
+
+        }
+    );
+
+}
+
+
+
+/* =========================================================
+   RESOURCES
+========================================================= */
+
+const resourceRates = {
+
+    ICU:
+        0.32,
+
+    beds:
+        0.70,
+
+    supplies:
+        2.0,
+
+    equipment:
+        0.40,
+
+    staff:
+        1.20
+
+};
+
+
+
+function updateResources() {
+
+    const selected =
+        forecastData[
+            forecastData.length - 1
+        ];
+
+
+    const demand =
+        selected.expected;
+
+
+    document.getElementById(
+        "expectedDemand"
+    ).textContent =
+        demand;
+
+
+    document.getElementById(
+        "planningRange"
+    ).textContent =
+        `${selected.lower}–${selected.upper}`;
+
+
+    document.getElementById(
+        "icuRequirement"
+    ).textContent =
+        Math.ceil(
+            demand *
+            resourceRates.ICU
+        );
+
+
+    document.getElementById(
+        "bedRequirement"
+    ).textContent =
+        Math.ceil(
+            demand *
+            resourceRates.beds
+        );
+
+
+    document.getElementById(
+        "supplyRequirement"
+    ).textContent =
+        Math.ceil(
+            demand *
+            resourceRates.supplies
+        );
+
+
+    document.getElementById(
+        "equipmentRequirement"
+    ).textContent =
+        Math.ceil(
+            demand *
+            resourceRates.equipment
+        );
+
+
+    document.getElementById(
+        "staffRequirement"
+    ).textContent =
+        Math.ceil(
+            demand *
+            resourceRates.staff
+        );
+
+}
+
+
+
+/* =========================================================
+   EQUITY DATA
+========================================================= */
+
+/*
+    Actual data should come from:
+
+        /api/equity/regions
+
+    Example:
+
+        {
+            region: "Actual Geography Name",
+            demand: 65,
+            allocated: 50
+        }
+
+    Until then, demo values are generated for all
+    52 loaded geographies.
+*/
+
+async function loadEquityData() {
+
+    try {
+
+        const response =
+            await fetch(
+                API.equity
+            );
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Equity endpoint unavailable"
+            );
+
+        }
+
+
+        const data =
+            await response.json();
+
+
+        const rows =
+            Array.isArray(data)
+                ? data
+                : data.regions;
+
+
+        if (
+            !Array.isArray(rows) ||
+            rows.length === 0
+        ) {
+
+            throw new Error(
+                "Invalid equity data"
+            );
+
+        }
+
+
+        equityData =
+            normalizeEquityData(
+                rows
+            );
+
+    }
+    catch (error) {
+
+        console.warn(
+            "Using generated demo equity values:",
+            error
+        );
+
+
+        equityData =
+            buildDemoEquityData(
+                cdcGeographies
+            );
+
+    }
+
+
+    renderPriorityLists();
+
+
+    renderEquityOverview();
+
+}
+
+
+
+/* =========================================================
+   NORMALIZE EQUITY DATA
+========================================================= */
+
+function normalizeEquityData(
+    rows
+) {
+
+    return rows
+        .map(
+            function(row) {
+
+                return {
+
+                    region:
+                        String(
+                            row.region ??
+                            row.geography ??
+                            ""
+                        ),
+
+                    demand:
+                        Number(
+                            row.demand ??
+                            row.projected_demand ??
+                            0
+                        ),
+
+                    allocated:
+                        Number(
+                            row.allocated ??
+                            row.allocated_capacity ??
+                            row.capacity ??
+                            0
+                        )
+
+                };
+
+            }
+        )
+        .filter(
+            row =>
+                row.region
+        );
+
+}
+
+
+
+/* =========================================================
+   DEMO EQUITY DATA
+========================================================= */
+
+function buildDemoEquityData(
+    geographies
+) {
+
+    return geographies.map(
+        function(
+            region,
+            index
+        ) {
+
+
+            /*
+                Deterministic values.
+
+                These are ONLY for interface testing.
+            */
+
+            const demand =
+                45 +
+                (
+                    (index * 17) %
+                    95
+                );
+
+
+            let coverage;
+
+
+            /*
+                Spread demo regions across
+                high / medium / low groups.
+            */
+
+            if (
+                index % 5 === 0
+            ) {
+
+                coverage =
+                    0.68 +
+                    (
+                        (index % 12) /
+                        100
+                    );
+
+            }
+            else if (
+                index % 3 === 0
+            ) {
+
+                coverage =
+                    0.87 +
+                    (
+                        (index % 10) /
+                        100
+                    );
+
+            }
+            else {
+
+                coverage =
+                    1.01 +
+                    (
+                        (index % 18) /
+                        100
+                    );
+
+            }
+
+
+            const allocated =
+                Math.round(
+                    demand *
+                    coverage
+                );
+
+
+            return {
+
+                region:
+                    region,
+
+                demand:
+                    demand,
+
+                allocated:
+                    allocated
+
+            };
+
+        }
+    );
+
+}
+
+
+
+/* =========================================================
+   ATTENTION LEVEL
+========================================================= */
+
+function getAttentionLevel(
+    row
+) {
+
+    if (
+        row.demand <= 0
+    ) {
+
+        return "LOW";
+
+    }
+
+
+    const coverage =
+        row.allocated /
+        row.demand;
+
+
+    if (
+        coverage < 0.85
+    ) {
+
+        return "HIGH";
+
+    }
+
+
+    if (
+        coverage < 1.00
+    ) {
+
+        return "MEDIUM";
+
+    }
+
+
+    return "LOW";
+
+}
+
+
+
+/* =========================================================
+   COVERAGE
+========================================================= */
+
+function getCoverage(
+    row
+) {
+
+    if (
+        row.demand <= 0
+    ) {
+
+        return 0;
+
+    }
+
+
+    return (
+        row.allocated /
+        row.demand
+    ) * 100;
+
+}
+
+
+
+/* =========================================================
+   SORT ALL 52
+========================================================= */
+
+function sortEquityData(
+    data
+) {
+
+    const order = {
+
+        HIGH:
+            1,
+
+        MEDIUM:
+            2,
+
+        LOW:
+            3
+
+    };
+
+
+    return [...data].sort(
+        function(
+            a,
+            b
+        ) {
+
+            const levelA =
+                getAttentionLevel(
+                    a
+                );
+
+
+            const levelB =
+                getAttentionLevel(
+                    b
+                );
+
+
+            if (
+                order[levelA] !==
+                order[levelB]
+            ) {
+
+                return (
+                    order[levelA] -
+                    order[levelB]
+                );
+
+            }
+
+
+            /*
+                Within each group:
+                lowest coverage first.
+            */
+
+            return (
+                getCoverage(a) -
+                getCoverage(b)
+            );
+
+        }
+    );
+
+}
+
+
+
+/* =========================================================
+   RENDER PRIORITY LIST
+========================================================= */
+
+function renderPriorityLists() {
+
+    const sorted =
+        sortEquityData(
+            equityData
+        );
+
+
+    const high =
+        sorted.filter(
+            row =>
+                getAttentionLevel(row)
+                ===
+                "HIGH"
+        );
+
+
+    const medium =
+        sorted.filter(
+            row =>
+                getAttentionLevel(row)
+                ===
+                "MEDIUM"
+        );
+
+
+    const low =
+        sorted.filter(
+            row =>
+                getAttentionLevel(row)
+                ===
+                "LOW"
+        );
+
+
+    document.getElementById(
+        "highCount"
+    ).textContent =
+        high.length;
+
+
+    document.getElementById(
+        "mediumCount"
+    ).textContent =
+        medium.length;
+
+
+    document.getElementById(
+        "lowCount"
+    ).textContent =
+        low.length;
+
+
+    renderAttentionGroup(
+        "highRegions",
+        high,
+        "HIGH"
+    );
+
+
+    renderAttentionGroup(
+        "mediumRegions",
+        medium,
+        "MEDIUM"
+    );
+
+
+    renderAttentionGroup(
+        "lowRegions",
+        low,
+        "LOW"
+    );
+
+}
+
+
+
+/* =========================================================
+   RENDER ONE ATTENTION GROUP
+========================================================= */
+
+function renderAttentionGroup(
+    elementId,
+    rows,
+    level
+) {
+
+    const container =
+        document.getElementById(
+            elementId
+        );
+
+
+    container.innerHTML =
+        "";
+
+
+    if (
+        rows.length === 0
+    ) {
+
+        container.innerHTML = `
+
+            <div class="empty-group">
+                No regions in this attention level.
+            </div>
+
+        `;
+
+        return;
+
+    }
+
+
+    rows.forEach(
+        function(row) {
+
+            const item =
+                document.createElement(
+                    "div"
+                );
+
+
+            item.className =
+                "region-item";
+
+
+            item.dataset.region =
+                row.region;
+
+
+            const coverage =
+                getCoverage(
+                    row
+                );
+
+
+            const gap =
+                row.allocated -
+                row.demand;
+
+
+            let coverageClass =
+                "region-item-low";
+
+
+            if (
+                level === "HIGH"
+            ) {
+
+                coverageClass =
+                    "region-item-high";
+
+            }
+            else if (
+                level === "MEDIUM"
+            ) {
+
+                coverageClass =
+                    "region-item-medium";
+
+            }
+
+
+            item.innerHTML = `
+
+                <div class="region-item-name">
+                    ${escapeHTML(row.region)}
+                </div>
+
+                <div class="
+                    region-item-coverage
+                    ${coverageClass}
+                ">
+                    ${coverage.toFixed(0)}%
+                </div>
+
+                <div class="region-item-gap">
+                    ${gap >= 0 ? "+" : ""}
+                    ${gap}
+                </div>
+
+            `;
+
+
+            item.addEventListener(
+                "click",
+                function() {
+
+                    selectEquityRegion(
+                        row
+                    );
+
+                }
+            );
+
+
+            container.appendChild(
+                item
+            );
+
+        }
+    );
+
+}
+
+
+
+/* =========================================================
+   EQUITY SEARCH
+========================================================= */
+
+function searchEquity() {
+
+    const query =
+        equitySearch.value
+            .trim()
+            .toLowerCase();
+
+
+    const sorted =
+        sortEquityData(
+            equityData
+        );
+
+
+    if (
+        !query
+    ) {
+
+        renderAttentionListsFromData(
+            sorted
+        );
+
+        return;
+
+    }
+
+
+    const filtered =
+        sorted.filter(
+            row =>
+                row.region
+                    .toLowerCase()
+                    .includes(query)
+        );
+
+
+    renderAttentionListsFromData(
+        filtered
+    );
+
+}
+
+
+
+/* =========================================================
+   RENDER FILTERED LIST
+========================================================= */
+
+function renderAttentionListsFromData(
+    data
+) {
+
+    const high =
+        data.filter(
+            row =>
+                getAttentionLevel(row)
+                ===
+                "HIGH"
+        );
+
+
+    const medium =
+        data.filter(
+            row =>
+                getAttentionLevel(row)
+                ===
+                "MEDIUM"
+        );
+
+
+    const low =
+        data.filter(
+            row =>
+                getAttentionLevel(row)
+                ===
+                "LOW"
+        );
+
+
+    document.getElementById(
+        "highCount"
+    ).textContent =
+        high.length;
+
+
+    document.getElementById(
+        "mediumCount"
+    ).textContent =
+        medium.length;
+
+
+    document.getElementById(
+        "lowCount"
+    ).textContent =
+        low.length;
+
+
+    renderAttentionGroup(
+        "highRegions",
+        high,
+        "HIGH"
+    );
+
+
+    renderAttentionGroup(
+        "mediumRegions",
+        medium,
+        "MEDIUM"
+    );
+
+
+    renderAttentionGroup(
+        "lowRegions",
+        low,
+        "LOW"
+    );
+
+}
+
+
+
+/* =========================================================
+   SEARCH ICON EQUITY
+========================================================= */
+
+
+
+/* =========================================================
+   EQUITY LIVE SEARCH
+========================================================= */
+
+
+
+
+
+/* =========================================================
+   SELECT EQUITY REGION
+========================================================= */
+
+function selectEquityRegion(
+    row
+) {
+
+    if (!row) {
+        return;
+    }
+
+
+    selectedEquityRegion =
+        row.region;
+
+
+
+
+    equitySelectedName.textContent =
+        row.region;
+
+
+    const coverage =
+        getCoverage(
+            row
+        );
+
+
+    const attention =
+        getAttentionLevel(
+            row
+        );
+
+
+    equityCoverageNumber.textContent =
+        `${coverage.toFixed(0)}%`;
+
+
+    equityCoverageRatio.textContent =
+        (
+            row.allocated /
+            Math.max(
+                row.demand,
+                1
+            )
+        ).toFixed(2);
+
+
+    equityMeter.style.width =
+        `${Math.min(
+            coverage,
+            100
+        )}%`;
+
+
+    const gap =
+        row.allocated -
+        row.demand;
+
+
+    equityGap.innerHTML = `
+
+        Projected demand:
+        <strong>
+            ${row.demand}
+        </strong>
+
+        &nbsp;•&nbsp;
+
+        Allocated:
+        <strong>
+            ${row.allocated}
+        </strong>
+
+        &nbsp;•&nbsp;
+
+        Gap:
+        <strong>
+            ${gap >= 0 ? "+" : ""}
+            ${gap}
+        </strong>
+
+    `;
+
+
+    equitySelectedStatus.textContent =
+        attention;
+
+
+    if (
+        attention === "HIGH"
+    ) {
+
+        equitySelectedStatus.style.background =
+            "var(--red-bg)";
+
+        equitySelectedStatus.style.color =
+            "var(--red)";
+
+    }
+    else if (
+        attention === "MEDIUM"
+    ) {
+
+        equitySelectedStatus.style.background =
+            "var(--yellow-bg)";
+
+        equitySelectedStatus.style.color =
+            "var(--yellow)";
+
+    }
+    else {
+
+        equitySelectedStatus.style.background =
+            "var(--green-bg)";
+
+        equitySelectedStatus.style.color =
+            "var(--green)";
+
+    }
+
+
+    renderSelectedEquityTable(
+        row
+    );
+
+
+    highlightSelectedRegion(
+        row.region
+    );
+
+}
+
+
+
+/* =========================================================
+   HIGHLIGHT SELECTED
+========================================================= */
+
+function highlightSelectedRegion(
+    region
+) {
+
+    document
+        .querySelectorAll(
+            ".region-item"
+        )
+        .forEach(
+            item => {
+
+                item.classList.toggle(
+                    "selected",
+                    item.dataset.region ===
+                    region
+                );
+
+            }
+        );
+
+}
+
+
+
+/* =========================================================
+   EQUITY DETAIL TABLE
+========================================================= */
+
+function renderSelectedEquityTable(
+    row
+) {
+
+    equityDetailsRows.innerHTML =
+        "";
+
+
+    const coverage =
+        getCoverage(
+            row
+        );
+
+
+    const gap =
+        row.allocated -
+        row.demand;
+
+
+    const attention =
+        getAttentionLevel(
+            row
+        );
+
+
+    let statusClass =
+        "good";
+
+
+    if (
+        attention === "HIGH"
+    ) {
+
+        statusClass =
+            "poor";
+
+    }
+    else if (
+        attention === "MEDIUM"
+    ) {
+
+        statusClass =
+            "warning";
+
+    }
+
+
+    const tr =
+        document.createElement(
+            "tr"
+        );
+
+
+    tr.innerHTML = `
+
+        <td>
+            <strong>
+                ${escapeHTML(row.region)}
+            </strong>
+        </td>
+
+        <td>
+            ${row.demand}
+        </td>
+
+        <td>
+            ${row.allocated}
+        </td>
+
+        <td class="${statusClass}">
+            ${gap >= 0 ? "+" : ""}
+            ${gap}
+        </td>
+
+        <td class="${statusClass}">
+            ${coverage.toFixed(0)}%
+        </td>
+
+        <td class="${statusClass}">
+            ${attention}
+        </td>
+
+    `;
+
+
+    equityDetailsRows.appendChild(
+        tr
+    );
+
+}
+
+
+
+/* =========================================================
+   EQUITY OVERVIEW
+========================================================= */
+
+function renderEquityOverview() {
+
+    if (
+        equityData.length === 0
+    ) {
+
+        return;
+
+    }
+
+
+    const totalDemand =
+        equityData.reduce(
+            (
+                total,
+                row
+            ) =>
+                total +
+                row.demand,
+            0
+        );
+
+
+    const totalAllocated =
+        equityData.reduce(
+            (
+                total,
+                row
+            ) =>
+                total +
+                row.allocated,
+            0
+        );
+
+
+    const coverage =
+        totalDemand > 0
+            ? (
+                totalAllocated /
+                totalDemand
+            ) *
+            100
+            : 0;
+
+
+    equityCoverageNumber.textContent =
+        `${coverage.toFixed(0)}%`;
+
+
+    equityCoverageRatio.textContent =
+        (
+            totalAllocated /
+            Math.max(
+                totalDemand,
+                1
+            )
+        ).toFixed(2);
+
+
+    equityMeter.style.width =
+        `${Math.min(
+            coverage,
+            100
+        )}%`;
+
+
+    equitySelectedName.textContent =
+        "All Regions";
+
+
+    equitySelectedStatus.textContent =
+        "OVERVIEW";
+
+
+    equitySelectedStatus.style.background =
+        "#e8f5f7";
+
+
+    equitySelectedStatus.style.color =
+        "var(--teal)";
+
+
+    const highCount =
+        equityData.filter(
+            row =>
+                getAttentionLevel(row)
+                ===
+                "HIGH"
+        ).length;
+
+
+    const mediumCount =
+        equityData.filter(
+            row =>
+                getAttentionLevel(row)
+                ===
+                "MEDIUM"
+        ).length;
+
+
+    equityGap.innerHTML = `
+
+        <strong>
+            ${equityData.length}
+        </strong>
+        regions tracked
+
+        &nbsp;•&nbsp;
+
+        <strong>
+            ${highCount}
+        </strong>
+        high-attention
+
+        &nbsp;•&nbsp;
+
+        <strong>
+            ${mediumCount}
+        </strong>
+        medium-attention
+
+    `;
+
+
+    /*
+        Show highest-priority region
+        in the details area initially.
+    */
+
+    const sorted =
+        sortEquityData(
+            equityData
+        );
+
+
+    if (
+        sorted.length
+    ) {
+
+        renderSelectedEquityTable(
+            sorted[0]
+        );
+
+    }
+
+}
+
+
+
+/* =========================================================
+   ESCAPE HTML
+========================================================= */
+
+function escapeHTML(
+    value
+) {
+
+    return String(
+        value
+    )
+        .replace(
+            /&/g,
+            "&amp;"
+        )
+        .replace(
+            /</g,
+            "&lt;"
+        )
+        .replace(
+            />/g,
+            "&gt;"
+        )
+        .replace(
+            /"/g,
+            "&quot;"
+        )
+        .replace(
+            /'/g,
+            "&#039;"
+        );
+
+}
+
+
+
+/* =========================================================
+   CLOSE CDC SEARCH
+========================================================= */
+
+document.addEventListener(
+    "click",
+    function(event) {
+
+        if (
+            !event.target.closest(
+                ".cdc-main"
+            )
+        ) {
+
+            cdcSearchResults.style.display =
+                "none";
+
+        }
+
+    }
+);
+
+
+
+/* =========================================================
+   INITIALIZE
+========================================================= */
+
+async function loadDashboardData() {
+    try {
+        const response = await fetch("dashboard_data.json");
+        if (!response.ok) {
+            throw new Error("Failed to load dashboard_data.json");
+        }
+        const data = await response.json();
+        forecastData = data.forecast || [];
+        console.log("Dashboard data loaded:", data);
+    } catch (error) {
+        console.error("Dashboard data error:", error);
+    }
+}
+async function initialize() {
+    await loadDashboardData();
+    renderForecastTable();
+    updateResources();  
+    await loadGeographies();
+    await loadEquityData();
+    /*
+        Do not automatically load
+        a particular CDC summary.
+    */
+    if (
+        cdcGeographies.length
+    ) {
+        chooseCDCRegion(
+            cdcGeographies[0]
+        );
+
+    }
+
+    drawCDCTrend(
+        []
+    );
+
+}
+
+
+initialize();
+
+
+
+/* =========================================================
+   RESIZE
+========================================================= */
+
+window.addEventListener(
+    "resize",
+    function() {
+
+        drawCDCTrend(
+            currentCDCTrend
+        );
+
+    }
+);
+
+</script>
+
+
+</body>
+
+</html>

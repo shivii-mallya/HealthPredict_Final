@@ -1,0 +1,2 @@
+Forecast_Date,Predicted_Total_Admissions,Required_ICU_Admissions,Required_General_Admissions,Required_Bed_Days,Required_Staff,Required_Medical_Supply_Units,Tracked_Supply_Stock,Supply_Difference,Supply_Status
+2027-01-01,18,9,9,133,30,36,8634,8598,SUFFICIENT

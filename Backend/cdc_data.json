@@ -1,0 +1,5674 @@
+{
+    "geographies": [
+        "Alabama",
+        "Alaska",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Delaware",
+        "District of Columbia",
+        "Florida",
+        "Georgia",
+        "Hawaii",
+        "Idaho",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Montana",
+        "Nebraska",
+        "Nevada",
+        "New Hampshire",
+        "New Jersey",
+        "New Mexico",
+        "New York",
+        "North Carolina",
+        "North Dakota",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "Rhode Island",
+        "South Carolina",
+        "South Dakota",
+        "Tennessee",
+        "Texas",
+        "United States",
+        "Utah",
+        "Vermont",
+        "Virginia",
+        "Washington",
+        "West Virginia",
+        "Wisconsin",
+        "Wyoming"
+    ],
+    "summaries": {
+        "Alabama": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Alabama",
+                "covid": 0.45,
+                "influenza": 0.55,
+                "rsv": 0.06,
+                "respiratory_activity": 1.06
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Alabama",
+                    "covid": 0.15,
+                    "influenza": 0.08,
+                    "rsv": 0.09,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Alabama",
+                    "covid": 0.16,
+                    "influenza": 0.09,
+                    "rsv": 0.06,
+                    "respiratory_activity": 0.31
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Alabama",
+                    "covid": 0.22,
+                    "influenza": 0.1,
+                    "rsv": 0.06,
+                    "respiratory_activity": 0.38
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Alabama",
+                    "covid": 0.29,
+                    "influenza": 0.07,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.41
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Alabama",
+                    "covid": 0.33,
+                    "influenza": 0.08,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.46
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Alabama",
+                    "covid": 0.39,
+                    "influenza": 0.1,
+                    "rsv": 0.07,
+                    "respiratory_activity": 0.56
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Alabama",
+                    "covid": 0.47,
+                    "influenza": 0.09,
+                    "rsv": 0.07,
+                    "respiratory_activity": 0.63
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Alabama",
+                    "covid": 0.68,
+                    "influenza": 0.16,
+                    "rsv": 0.09,
+                    "respiratory_activity": 0.93
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Alabama",
+                    "covid": 0.93,
+                    "influenza": 0.3,
+                    "rsv": 0.11,
+                    "respiratory_activity": 1.34
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Alabama",
+                    "covid": 0.96,
+                    "influenza": 0.52,
+                    "rsv": 0.1,
+                    "respiratory_activity": 1.58
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Alabama",
+                    "covid": 0.78,
+                    "influenza": 0.5,
+                    "rsv": 0.12,
+                    "respiratory_activity": 1.4
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Alabama",
+                    "covid": 0.45,
+                    "influenza": 0.55,
+                    "rsv": 0.06,
+                    "respiratory_activity": 1.06
+                }
+            ]
+        },
+        "Alaska": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Alaska",
+                "covid": 0.33,
+                "influenza": 1.8,
+                "rsv": 0.0,
+                "respiratory_activity": 2.13
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Alaska",
+                    "covid": 0.11,
+                    "influenza": 0.41,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.52
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Alaska",
+                    "covid": 0.13,
+                    "influenza": 0.32,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.49
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Alaska",
+                    "covid": 0.18,
+                    "influenza": 0.33,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.55
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Alaska",
+                    "covid": 0.31,
+                    "influenza": 0.25,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.56
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Alaska",
+                    "covid": 0.27,
+                    "influenza": 0.25,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.53
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Alaska",
+                    "covid": 0.4,
+                    "influenza": 0.3,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.7
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Alaska",
+                    "covid": 0.2,
+                    "influenza": 0.34,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.54
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Alaska",
+                    "covid": 0.23,
+                    "influenza": 0.52,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.76
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Alaska",
+                    "covid": 0.31,
+                    "influenza": 0.83,
+                    "rsv": 0.0,
+                    "respiratory_activity": 1.14
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Alaska",
+                    "covid": 0.43,
+                    "influenza": 1.55,
+                    "rsv": 0.04,
+                    "respiratory_activity": 2.02
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Alaska",
+                    "covid": 0.48,
+                    "influenza": 1.71,
+                    "rsv": 0.01,
+                    "respiratory_activity": 2.2
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Alaska",
+                    "covid": 0.33,
+                    "influenza": 1.8,
+                    "rsv": 0.0,
+                    "respiratory_activity": 2.13
+                }
+            ]
+        },
+        "Arizona": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Arizona",
+                "covid": 0.44,
+                "influenza": 0.22,
+                "rsv": 0.01,
+                "respiratory_activity": 0.67
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Arizona",
+                    "covid": 0.12,
+                    "influenza": 0.13,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Arizona",
+                    "covid": 0.15,
+                    "influenza": 0.1,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Arizona",
+                    "covid": 0.15,
+                    "influenza": 0.09,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Arizona",
+                    "covid": 0.21,
+                    "influenza": 0.1,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Arizona",
+                    "covid": 0.22,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.28
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Arizona",
+                    "covid": 0.34,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.41
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Arizona",
+                    "covid": 0.44,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.5
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Arizona",
+                    "covid": 0.56,
+                    "influenza": 0.09,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.66
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Arizona",
+                    "covid": 0.64,
+                    "influenza": 0.1,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.75
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Arizona",
+                    "covid": 0.65,
+                    "influenza": 0.11,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.76
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Arizona",
+                    "covid": 0.56,
+                    "influenza": 0.17,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.74
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Arizona",
+                    "covid": 0.44,
+                    "influenza": 0.22,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.67
+                }
+            ]
+        },
+        "Arkansas": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Arkansas",
+                "covid": 0.4,
+                "influenza": 0.23,
+                "rsv": 0.04,
+                "respiratory_activity": 0.67
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Arkansas",
+                    "covid": 0.13,
+                    "influenza": 0.08,
+                    "rsv": 0.06,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Arkansas",
+                    "covid": 0.05,
+                    "influenza": 0.04,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Arkansas",
+                    "covid": 0.13,
+                    "influenza": 0.03,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Arkansas",
+                    "covid": 0.15,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.22
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Arkansas",
+                    "covid": 0.19,
+                    "influenza": 0.07,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.3
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Arkansas",
+                    "covid": 0.29,
+                    "influenza": 0.04,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.36
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Arkansas",
+                    "covid": 0.31,
+                    "influenza": 0.08,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.41
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Arkansas",
+                    "covid": 0.39,
+                    "influenza": 0.09,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.51
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Arkansas",
+                    "covid": 0.51,
+                    "influenza": 0.11,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.66
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Arkansas",
+                    "covid": 0.55,
+                    "influenza": 0.14,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.71
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Arkansas",
+                    "covid": 0.46,
+                    "influenza": 0.13,
+                    "rsv": 0.06,
+                    "respiratory_activity": 0.65
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Arkansas",
+                    "covid": 0.4,
+                    "influenza": 0.23,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.67
+                }
+            ]
+        },
+        "California": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "California",
+                "covid": 0.81,
+                "influenza": 0.45,
+                "rsv": 0.02,
+                "respiratory_activity": 1.28
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "California",
+                    "covid": 0.11,
+                    "influenza": 0.15,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "California",
+                    "covid": 0.14,
+                    "influenza": 0.14,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.29
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "California",
+                    "covid": 0.15,
+                    "influenza": 0.12,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.29
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "California",
+                    "covid": 0.21,
+                    "influenza": 0.12,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.34
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "California",
+                    "covid": 0.29,
+                    "influenza": 0.11,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.41
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "California",
+                    "covid": 0.37,
+                    "influenza": 0.1,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.49
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "California",
+                    "covid": 0.44,
+                    "influenza": 0.13,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.58
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "California",
+                    "covid": 0.59,
+                    "influenza": 0.15,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.76
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "California",
+                    "covid": 0.76,
+                    "influenza": 0.2,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.98
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "California",
+                    "covid": 0.84,
+                    "influenza": 0.25,
+                    "rsv": 0.01,
+                    "respiratory_activity": 1.1
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "California",
+                    "covid": 0.93,
+                    "influenza": 0.37,
+                    "rsv": 0.02,
+                    "respiratory_activity": 1.32
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "California",
+                    "covid": 0.81,
+                    "influenza": 0.45,
+                    "rsv": 0.02,
+                    "respiratory_activity": 1.28
+                }
+            ]
+        },
+        "Colorado": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Colorado",
+                "covid": 0.31,
+                "influenza": 0.18,
+                "rsv": 0.01,
+                "respiratory_activity": 0.5
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Colorado",
+                    "covid": 0.05,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Colorado",
+                    "covid": 0.09,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.15
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Colorado",
+                    "covid": 0.07,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Colorado",
+                    "covid": 0.08,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Colorado",
+                    "covid": 0.13,
+                    "influenza": 0.02,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.15
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Colorado",
+                    "covid": 0.15,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Colorado",
+                    "covid": 0.14,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Colorado",
+                    "covid": 0.24,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.29
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Colorado",
+                    "covid": 0.24,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.31
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Colorado",
+                    "covid": 0.25,
+                    "influenza": 0.11,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.37
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Colorado",
+                    "covid": 0.23,
+                    "influenza": 0.15,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.39
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Colorado",
+                    "covid": 0.31,
+                    "influenza": 0.18,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.5
+                }
+            ]
+        },
+        "Connecticut": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Connecticut",
+                "covid": 0.53,
+                "influenza": 0.14,
+                "rsv": 0.0,
+                "respiratory_activity": 0.67
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Connecticut",
+                    "covid": 0.06,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Connecticut",
+                    "covid": 0.11,
+                    "influenza": 0.01,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Connecticut",
+                    "covid": 0.15,
+                    "influenza": 0.02,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Connecticut",
+                    "covid": 0.15,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Connecticut",
+                    "covid": 0.16,
+                    "influenza": 0.02,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Connecticut",
+                    "covid": 0.16,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Connecticut",
+                    "covid": 0.22,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Connecticut",
+                    "covid": 0.26,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.29
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Connecticut",
+                    "covid": 0.36,
+                    "influenza": 0.05,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.41
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Connecticut",
+                    "covid": 0.41,
+                    "influenza": 0.08,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.5
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Connecticut",
+                    "covid": 0.49,
+                    "influenza": 0.09,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.59
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Connecticut",
+                    "covid": 0.53,
+                    "influenza": 0.14,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.67
+                }
+            ]
+        },
+        "Delaware": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Delaware",
+                "covid": 0.31,
+                "influenza": 0.15,
+                "rsv": 0.06,
+                "respiratory_activity": 0.52
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Delaware",
+                    "covid": 0.06,
+                    "influenza": 0.01,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Delaware",
+                    "covid": 0.07,
+                    "influenza": 0.01,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Delaware",
+                    "covid": 0.06,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Delaware",
+                    "covid": 0.08,
+                    "influenza": 0.06,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Delaware",
+                    "covid": 0.1,
+                    "influenza": 0.08,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Delaware",
+                    "covid": 0.13,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Delaware",
+                    "covid": 0.17,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.25
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Delaware",
+                    "covid": 0.19,
+                    "influenza": 0.09,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Delaware",
+                    "covid": 0.25,
+                    "influenza": 0.12,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.38
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Delaware",
+                    "covid": 0.33,
+                    "influenza": 0.11,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.46
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Delaware",
+                    "covid": 0.42,
+                    "influenza": 0.12,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.56
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Delaware",
+                    "covid": 0.31,
+                    "influenza": 0.15,
+                    "rsv": 0.06,
+                    "respiratory_activity": 0.52
+                }
+            ]
+        },
+        "District of Columbia": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "District of Columbia",
+                "covid": 0.26,
+                "influenza": 0.19,
+                "rsv": 0.0,
+                "respiratory_activity": 0.45
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "District of Columbia",
+                    "covid": 0.03,
+                    "influenza": 0.08,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "District of Columbia",
+                    "covid": 0.03,
+                    "influenza": 0.07,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "District of Columbia",
+                    "covid": 0.04,
+                    "influenza": 0.13,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "District of Columbia",
+                    "covid": 0.01,
+                    "influenza": 0.1,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "District of Columbia",
+                    "covid": 0.09,
+                    "influenza": 0.06,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "District of Columbia",
+                    "covid": 0.09,
+                    "influenza": 0.06,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "District of Columbia",
+                    "covid": 0.14,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "District of Columbia",
+                    "covid": 0.18,
+                    "influenza": 0.03,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.25
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "District of Columbia",
+                    "covid": 0.19,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.25
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "District of Columbia",
+                    "covid": 0.19,
+                    "influenza": 0.11,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.33
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "District of Columbia",
+                    "covid": 0.19,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "District of Columbia",
+                    "covid": 0.26,
+                    "influenza": 0.19,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.45
+                }
+            ]
+        },
+        "Florida": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Florida",
+                "covid": 0.91,
+                "influenza": 0.64,
+                "rsv": 0.13,
+                "respiratory_activity": 1.68
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Florida",
+                    "covid": 0.37,
+                    "influenza": 0.19,
+                    "rsv": 0.07,
+                    "respiratory_activity": 0.63
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Florida",
+                    "covid": 0.46,
+                    "influenza": 0.21,
+                    "rsv": 0.06,
+                    "respiratory_activity": 0.73
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Florida",
+                    "covid": 0.54,
+                    "influenza": 0.2,
+                    "rsv": 0.06,
+                    "respiratory_activity": 0.8
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Florida",
+                    "covid": 0.62,
+                    "influenza": 0.19,
+                    "rsv": 0.07,
+                    "respiratory_activity": 0.88
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Florida",
+                    "covid": 0.65,
+                    "influenza": 0.19,
+                    "rsv": 0.07,
+                    "respiratory_activity": 0.91
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Florida",
+                    "covid": 0.71,
+                    "influenza": 0.2,
+                    "rsv": 0.08,
+                    "respiratory_activity": 0.99
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Florida",
+                    "covid": 0.83,
+                    "influenza": 0.22,
+                    "rsv": 0.08,
+                    "respiratory_activity": 1.13
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Florida",
+                    "covid": 1.01,
+                    "influenza": 0.27,
+                    "rsv": 0.08,
+                    "respiratory_activity": 1.36
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Florida",
+                    "covid": 1.2,
+                    "influenza": 0.31,
+                    "rsv": 0.09,
+                    "respiratory_activity": 1.6
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Florida",
+                    "covid": 1.23,
+                    "influenza": 0.35,
+                    "rsv": 0.12,
+                    "respiratory_activity": 1.7
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Florida",
+                    "covid": 1.1,
+                    "influenza": 0.49,
+                    "rsv": 0.12,
+                    "respiratory_activity": 1.71
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Florida",
+                    "covid": 0.91,
+                    "influenza": 0.64,
+                    "rsv": 0.13,
+                    "respiratory_activity": 1.68
+                }
+            ]
+        },
+        "Georgia": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Georgia",
+                "covid": 0.48,
+                "influenza": 0.19,
+                "rsv": 0.05,
+                "respiratory_activity": 0.72
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Georgia",
+                    "covid": 0.12,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Georgia",
+                    "covid": 0.12,
+                    "influenza": 0.03,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Georgia",
+                    "covid": 0.16,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.23
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Georgia",
+                    "covid": 0.2,
+                    "influenza": 0.04,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Georgia",
+                    "covid": 0.36,
+                    "influenza": 0.04,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.43
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Georgia",
+                    "covid": 0.46,
+                    "influenza": 0.08,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.57
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Georgia",
+                    "covid": 0.69,
+                    "influenza": 0.1,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.82
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Georgia",
+                    "covid": 0.77,
+                    "influenza": 0.1,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.9
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Georgia",
+                    "covid": 0.89,
+                    "influenza": 0.1,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.02
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Georgia",
+                    "covid": 0.72,
+                    "influenza": 0.09,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.84
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Georgia",
+                    "covid": 0.59,
+                    "influenza": 0.12,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.74
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Georgia",
+                    "covid": 0.48,
+                    "influenza": 0.19,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.72
+                }
+            ]
+        },
+        "Hawaii": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Hawaii",
+                "covid": 1.62,
+                "influenza": 1.35,
+                "rsv": 0.2,
+                "respiratory_activity": 3.17
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Hawaii",
+                    "covid": 0.35,
+                    "influenza": 0.67,
+                    "rsv": 0.15,
+                    "respiratory_activity": 1.17
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Hawaii",
+                    "covid": 0.35,
+                    "influenza": 0.38,
+                    "rsv": 0.1,
+                    "respiratory_activity": 0.83
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Hawaii",
+                    "covid": 0.6,
+                    "influenza": 0.28,
+                    "rsv": 0.12,
+                    "respiratory_activity": 1.0
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Hawaii",
+                    "covid": 0.58,
+                    "influenza": 0.26,
+                    "rsv": 0.1,
+                    "respiratory_activity": 0.94
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Hawaii",
+                    "covid": 0.66,
+                    "influenza": 0.42,
+                    "rsv": 0.1,
+                    "respiratory_activity": 1.18
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Hawaii",
+                    "covid": 0.89,
+                    "influenza": 0.38,
+                    "rsv": 0.11,
+                    "respiratory_activity": 1.38
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Hawaii",
+                    "covid": 0.98,
+                    "influenza": 0.31,
+                    "rsv": 0.09,
+                    "respiratory_activity": 1.38
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Hawaii",
+                    "covid": 1.34,
+                    "influenza": 0.55,
+                    "rsv": 0.09,
+                    "respiratory_activity": 1.98
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Hawaii",
+                    "covid": 1.59,
+                    "influenza": 0.53,
+                    "rsv": 0.11,
+                    "respiratory_activity": 2.23
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Hawaii",
+                    "covid": 1.75,
+                    "influenza": 0.6,
+                    "rsv": 0.2,
+                    "respiratory_activity": 2.55
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Hawaii",
+                    "covid": 1.47,
+                    "influenza": 1.02,
+                    "rsv": 0.21,
+                    "respiratory_activity": 2.7
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Hawaii",
+                    "covid": 1.62,
+                    "influenza": 1.35,
+                    "rsv": 0.2,
+                    "respiratory_activity": 3.17
+                }
+            ]
+        },
+        "Idaho": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Idaho",
+                "covid": 0.47,
+                "influenza": 0.27,
+                "rsv": 0.01,
+                "respiratory_activity": 0.75
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Idaho",
+                    "covid": 0.16,
+                    "influenza": 0.13,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.3
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Idaho",
+                    "covid": 0.17,
+                    "influenza": 0.12,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Idaho",
+                    "covid": 0.17,
+                    "influenza": 0.09,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Idaho",
+                    "covid": 0.16,
+                    "influenza": 0.09,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.28
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Idaho",
+                    "covid": 0.2,
+                    "influenza": 0.06,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.3
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Idaho",
+                    "covid": 0.12,
+                    "influenza": 0.12,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Idaho",
+                    "covid": 0.26,
+                    "influenza": 0.08,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.34
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Idaho",
+                    "covid": 0.4,
+                    "influenza": 0.1,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.51
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Idaho",
+                    "covid": 0.41,
+                    "influenza": 0.12,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.54
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Idaho",
+                    "covid": 0.35,
+                    "influenza": 0.2,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.55
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Idaho",
+                    "covid": 0.52,
+                    "influenza": 0.2,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.72
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Idaho",
+                    "covid": 0.47,
+                    "influenza": 0.27,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.75
+                }
+            ]
+        },
+        "Illinois": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Illinois",
+                "covid": 0.19,
+                "influenza": 0.16,
+                "rsv": 0.02,
+                "respiratory_activity": 0.37
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Illinois",
+                    "covid": 0.06,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Illinois",
+                    "covid": 0.07,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Illinois",
+                    "covid": 0.09,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Illinois",
+                    "covid": 0.09,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Illinois",
+                    "covid": 0.12,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.15
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Illinois",
+                    "covid": 0.16,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.23
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Illinois",
+                    "covid": 0.15,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.22
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Illinois",
+                    "covid": 0.17,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Illinois",
+                    "covid": 0.2,
+                    "influenza": 0.07,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.29
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Illinois",
+                    "covid": 0.22,
+                    "influenza": 0.12,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.36
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Illinois",
+                    "covid": 0.23,
+                    "influenza": 0.14,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.39
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Illinois",
+                    "covid": 0.19,
+                    "influenza": 0.16,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.37
+                }
+            ]
+        },
+        "Indiana": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Indiana",
+                "covid": 0.15,
+                "influenza": 0.12,
+                "rsv": 0.02,
+                "respiratory_activity": 0.29
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Indiana",
+                    "covid": 0.04,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Indiana",
+                    "covid": 0.04,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Indiana",
+                    "covid": 0.04,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.07
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Indiana",
+                    "covid": 0.06,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Indiana",
+                    "covid": 0.1,
+                    "influenza": 0.01,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Indiana",
+                    "covid": 0.12,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Indiana",
+                    "covid": 0.13,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Indiana",
+                    "covid": 0.17,
+                    "influenza": 0.04,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.23
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Indiana",
+                    "covid": 0.18,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Indiana",
+                    "covid": 0.22,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.3
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Indiana",
+                    "covid": 0.16,
+                    "influenza": 0.1,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.28
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Indiana",
+                    "covid": 0.15,
+                    "influenza": 0.12,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.29
+                }
+            ]
+        },
+        "Iowa": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Iowa",
+                "covid": NaN,
+                "influenza": NaN,
+                "rsv": NaN,
+                "respiratory_activity": NaN
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Iowa",
+                    "covid": NaN,
+                    "influenza": NaN,
+                    "rsv": NaN,
+                    "respiratory_activity": NaN
+                }
+            ]
+        },
+        "Kansas": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Kansas",
+                "covid": 0.17,
+                "influenza": 0.09,
+                "rsv": 0.02,
+                "respiratory_activity": 0.28
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Kansas",
+                    "covid": 0.05,
+                    "influenza": 0.04,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Kansas",
+                    "covid": 0.1,
+                    "influenza": 0.02,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Kansas",
+                    "covid": 0.06,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Kansas",
+                    "covid": 0.08,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Kansas",
+                    "covid": 0.08,
+                    "influenza": 0.02,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Kansas",
+                    "covid": 0.08,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Kansas",
+                    "covid": 0.17,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Kansas",
+                    "covid": 0.14,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Kansas",
+                    "covid": 0.14,
+                    "influenza": 0.09,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.23
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Kansas",
+                    "covid": 0.22,
+                    "influenza": 0.09,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Kansas",
+                    "covid": 0.2,
+                    "influenza": 0.07,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.29
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Kansas",
+                    "covid": 0.17,
+                    "influenza": 0.09,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.28
+                }
+            ]
+        },
+        "Kentucky": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Kentucky",
+                "covid": 0.25,
+                "influenza": 0.16,
+                "rsv": 0.02,
+                "respiratory_activity": 0.43
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Kentucky",
+                    "covid": 0.09,
+                    "influenza": 0.05,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Kentucky",
+                    "covid": 0.07,
+                    "influenza": 0.05,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.15
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Kentucky",
+                    "covid": 0.09,
+                    "influenza": 0.04,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Kentucky",
+                    "covid": 0.11,
+                    "influenza": 0.04,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Kentucky",
+                    "covid": 0.11,
+                    "influenza": 0.04,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Kentucky",
+                    "covid": 0.17,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Kentucky",
+                    "covid": 0.23,
+                    "influenza": 0.05,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.31
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Kentucky",
+                    "covid": 0.28,
+                    "influenza": 0.06,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.39
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Kentucky",
+                    "covid": 0.35,
+                    "influenza": 0.09,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.47
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Kentucky",
+                    "covid": 0.38,
+                    "influenza": 0.09,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.5
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Kentucky",
+                    "covid": 0.36,
+                    "influenza": 0.15,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.54
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Kentucky",
+                    "covid": 0.25,
+                    "influenza": 0.16,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.43
+                }
+            ]
+        },
+        "Louisiana": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Louisiana",
+                "covid": 0.93,
+                "influenza": 0.43,
+                "rsv": 0.04,
+                "respiratory_activity": 1.4
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Louisiana",
+                    "covid": 0.3,
+                    "influenza": 0.09,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.42
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Louisiana",
+                    "covid": 0.34,
+                    "influenza": 0.05,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.42
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Louisiana",
+                    "covid": 0.38,
+                    "influenza": 0.07,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.48
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Louisiana",
+                    "covid": 0.51,
+                    "influenza": 0.08,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.61
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Louisiana",
+                    "covid": 0.54,
+                    "influenza": 0.07,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.63
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Louisiana",
+                    "covid": 0.72,
+                    "influenza": 0.08,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.83
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Louisiana",
+                    "covid": 0.87,
+                    "influenza": 0.07,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.97
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Louisiana",
+                    "covid": 1.29,
+                    "influenza": 0.1,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.42
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Louisiana",
+                    "covid": 1.57,
+                    "influenza": 0.15,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.75
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Louisiana",
+                    "covid": 1.35,
+                    "influenza": 0.18,
+                    "rsv": 0.02,
+                    "respiratory_activity": 1.55
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Louisiana",
+                    "covid": 1.13,
+                    "influenza": 0.26,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.42
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Louisiana",
+                    "covid": 0.93,
+                    "influenza": 0.43,
+                    "rsv": 0.04,
+                    "respiratory_activity": 1.4
+                }
+            ]
+        },
+        "Maine": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Maine",
+                "covid": 0.18,
+                "influenza": 0.2,
+                "rsv": 0.0,
+                "respiratory_activity": 0.38
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Maine",
+                    "covid": 0.04,
+                    "influenza": 0.03,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Maine",
+                    "covid": 0.02,
+                    "influenza": 0.06,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Maine",
+                    "covid": 0.04,
+                    "influenza": 0.08,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.15
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Maine",
+                    "covid": 0.06,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Maine",
+                    "covid": 0.05,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Maine",
+                    "covid": 0.05,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Maine",
+                    "covid": 0.09,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Maine",
+                    "covid": 0.05,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Maine",
+                    "covid": 0.07,
+                    "influenza": 0.07,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Maine",
+                    "covid": 0.07,
+                    "influenza": 0.08,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.15
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Maine",
+                    "covid": 0.11,
+                    "influenza": 0.15,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Maine",
+                    "covid": 0.18,
+                    "influenza": 0.2,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.38
+                }
+            ]
+        },
+        "Maryland": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Maryland",
+                "covid": 0.36,
+                "influenza": 0.16,
+                "rsv": 0.0,
+                "respiratory_activity": 0.52
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Maryland",
+                    "covid": 0.09,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Maryland",
+                    "covid": 0.03,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Maryland",
+                    "covid": 0.07,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Maryland",
+                    "covid": 0.1,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Maryland",
+                    "covid": 0.11,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Maryland",
+                    "covid": 0.15,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Maryland",
+                    "covid": 0.19,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Maryland",
+                    "covid": 0.21,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Maryland",
+                    "covid": 0.23,
+                    "influenza": 0.1,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.35
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Maryland",
+                    "covid": 0.3,
+                    "influenza": 0.11,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.43
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Maryland",
+                    "covid": 0.37,
+                    "influenza": 0.14,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.52
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Maryland",
+                    "covid": 0.36,
+                    "influenza": 0.16,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.52
+                }
+            ]
+        },
+        "Massachusetts": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Massachusetts",
+                "covid": 0.29,
+                "influenza": 0.13,
+                "rsv": 0.01,
+                "respiratory_activity": 0.43
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Massachusetts",
+                    "covid": 0.07,
+                    "influenza": 0.04,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Massachusetts",
+                    "covid": 0.06,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Massachusetts",
+                    "covid": 0.08,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Massachusetts",
+                    "covid": 0.09,
+                    "influenza": 0.03,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Massachusetts",
+                    "covid": 0.09,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Massachusetts",
+                    "covid": 0.15,
+                    "influenza": 0.03,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Massachusetts",
+                    "covid": 0.15,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Massachusetts",
+                    "covid": 0.2,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Massachusetts",
+                    "covid": 0.23,
+                    "influenza": 0.08,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Massachusetts",
+                    "covid": 0.26,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.33
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Massachusetts",
+                    "covid": 0.25,
+                    "influenza": 0.1,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.36
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Massachusetts",
+                    "covid": 0.29,
+                    "influenza": 0.13,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.43
+                }
+            ]
+        },
+        "Michigan": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Michigan",
+                "covid": 0.13,
+                "influenza": 0.1,
+                "rsv": 0.02,
+                "respiratory_activity": 0.25
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Michigan",
+                    "covid": 0.03,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Michigan",
+                    "covid": 0.04,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Michigan",
+                    "covid": 0.05,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Michigan",
+                    "covid": 0.05,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Michigan",
+                    "covid": 0.05,
+                    "influenza": 0.01,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.06
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Michigan",
+                    "covid": 0.08,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Michigan",
+                    "covid": 0.08,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Michigan",
+                    "covid": 0.08,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Michigan",
+                    "covid": 0.1,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Michigan",
+                    "covid": 0.15,
+                    "influenza": 0.09,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.25
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Michigan",
+                    "covid": 0.18,
+                    "influenza": 0.09,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.28
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Michigan",
+                    "covid": 0.13,
+                    "influenza": 0.1,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.25
+                }
+            ]
+        },
+        "Minnesota": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Minnesota",
+                "covid": 0.29,
+                "influenza": 0.2,
+                "rsv": 0.01,
+                "respiratory_activity": 0.5
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Minnesota",
+                    "covid": 0.04,
+                    "influenza": 0.03,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Minnesota",
+                    "covid": 0.04,
+                    "influenza": 0.02,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Minnesota",
+                    "covid": 0.06,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Minnesota",
+                    "covid": 0.06,
+                    "influenza": 0.03,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Minnesota",
+                    "covid": 0.09,
+                    "influenza": 0.03,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Minnesota",
+                    "covid": 0.11,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Minnesota",
+                    "covid": 0.13,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Minnesota",
+                    "covid": 0.15,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Minnesota",
+                    "covid": 0.16,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.22
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Minnesota",
+                    "covid": 0.23,
+                    "influenza": 0.12,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.35
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Minnesota",
+                    "covid": 0.23,
+                    "influenza": 0.17,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.41
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Minnesota",
+                    "covid": 0.29,
+                    "influenza": 0.2,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.5
+                }
+            ]
+        },
+        "Mississippi": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Mississippi",
+                "covid": 0.49,
+                "influenza": 0.31,
+                "rsv": 0.05,
+                "respiratory_activity": 0.85
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Mississippi",
+                    "covid": 0.19,
+                    "influenza": 0.08,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.29
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Mississippi",
+                    "covid": 0.2,
+                    "influenza": 0.06,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.29
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Mississippi",
+                    "covid": 0.31,
+                    "influenza": 0.1,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.44
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Mississippi",
+                    "covid": 0.39,
+                    "influenza": 0.09,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.52
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Mississippi",
+                    "covid": 0.44,
+                    "influenza": 0.1,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.57
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Mississippi",
+                    "covid": 0.52,
+                    "influenza": 0.11,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.66
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Mississippi",
+                    "covid": 0.88,
+                    "influenza": 0.13,
+                    "rsv": 0.05,
+                    "respiratory_activity": 1.06
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Mississippi",
+                    "covid": 0.98,
+                    "influenza": 0.2,
+                    "rsv": 0.04,
+                    "respiratory_activity": 1.22
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Mississippi",
+                    "covid": 0.89,
+                    "influenza": 0.24,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.16
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Mississippi",
+                    "covid": 0.74,
+                    "influenza": 0.17,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.96
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Mississippi",
+                    "covid": 0.61,
+                    "influenza": 0.27,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.93
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Mississippi",
+                    "covid": 0.49,
+                    "influenza": 0.31,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.85
+                }
+            ]
+        },
+        "Missouri": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Missouri",
+                "covid": 0.26,
+                "influenza": 0.16,
+                "rsv": 0.0,
+                "respiratory_activity": 0.42
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Missouri",
+                    "covid": 0.05,
+                    "influenza": 0.04,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Missouri",
+                    "covid": 0.06,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Missouri",
+                    "covid": 0.07,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Missouri",
+                    "covid": 0.11,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Missouri",
+                    "covid": 0.13,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Missouri",
+                    "covid": 0.12,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Missouri",
+                    "covid": 0.16,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.23
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Missouri",
+                    "covid": 0.16,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.22
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Missouri",
+                    "covid": 0.21,
+                    "influenza": 0.08,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.31
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Missouri",
+                    "covid": 0.26,
+                    "influenza": 0.09,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.37
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Missouri",
+                    "covid": 0.32,
+                    "influenza": 0.14,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.48
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Missouri",
+                    "covid": 0.26,
+                    "influenza": 0.16,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.42
+                }
+            ]
+        },
+        "Montana": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Montana",
+                "covid": 0.37,
+                "influenza": 0.19,
+                "rsv": 0.0,
+                "respiratory_activity": 0.56
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Montana",
+                    "covid": 0.01,
+                    "influenza": 0.06,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Montana",
+                    "covid": 0.04,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.07
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Montana",
+                    "covid": 0.03,
+                    "influenza": 0.04,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Montana",
+                    "covid": 0.06,
+                    "influenza": 0.0,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Montana",
+                    "covid": 0.04,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Montana",
+                    "covid": 0.11,
+                    "influenza": 0.02,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Montana",
+                    "covid": 0.09,
+                    "influenza": 0.01,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Montana",
+                    "covid": 0.06,
+                    "influenza": 0.08,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Montana",
+                    "covid": 0.18,
+                    "influenza": 0.1,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.28
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Montana",
+                    "covid": 0.2,
+                    "influenza": 0.07,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Montana",
+                    "covid": 0.2,
+                    "influenza": 0.2,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.41
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Montana",
+                    "covid": 0.37,
+                    "influenza": 0.19,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.56
+                }
+            ]
+        },
+        "Nebraska": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Nebraska",
+                "covid": 0.14,
+                "influenza": 0.05,
+                "rsv": 0.01,
+                "respiratory_activity": 0.2
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Nebraska",
+                    "covid": 0.02,
+                    "influenza": 0.01,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.05
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Nebraska",
+                    "covid": 0.04,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Nebraska",
+                    "covid": 0.03,
+                    "influenza": 0.01,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.07
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Nebraska",
+                    "covid": 0.05,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Nebraska",
+                    "covid": 0.07,
+                    "influenza": 0.01,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Nebraska",
+                    "covid": 0.07,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Nebraska",
+                    "covid": 0.05,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Nebraska",
+                    "covid": 0.13,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Nebraska",
+                    "covid": 0.08,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Nebraska",
+                    "covid": 0.07,
+                    "influenza": 0.05,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Nebraska",
+                    "covid": 0.11,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Nebraska",
+                    "covid": 0.14,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.2
+                }
+            ]
+        },
+        "Nevada": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Nevada",
+                "covid": 0.62,
+                "influenza": 0.32,
+                "rsv": 0.0,
+                "respiratory_activity": 0.94
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Nevada",
+                    "covid": 0.18,
+                    "influenza": 0.18,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.37
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Nevada",
+                    "covid": 0.23,
+                    "influenza": 0.22,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.46
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Nevada",
+                    "covid": 0.2,
+                    "influenza": 0.14,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.35
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Nevada",
+                    "covid": 0.21,
+                    "influenza": 0.13,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.36
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Nevada",
+                    "covid": 0.32,
+                    "influenza": 0.09,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.42
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Nevada",
+                    "covid": 0.46,
+                    "influenza": 0.12,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.58
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Nevada",
+                    "covid": 0.5,
+                    "influenza": 0.13,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.63
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Nevada",
+                    "covid": 0.54,
+                    "influenza": 0.13,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.67
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Nevada",
+                    "covid": 0.63,
+                    "influenza": 0.17,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.81
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Nevada",
+                    "covid": 0.74,
+                    "influenza": 0.17,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.92
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Nevada",
+                    "covid": 0.69,
+                    "influenza": 0.28,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.99
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Nevada",
+                    "covid": 0.62,
+                    "influenza": 0.32,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.94
+                }
+            ]
+        },
+        "New Hampshire": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "New Hampshire",
+                "covid": 0.36,
+                "influenza": 0.16,
+                "rsv": 0.0,
+                "respiratory_activity": 0.52
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "New Hampshire",
+                    "covid": 0.06,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "New Hampshire",
+                    "covid": 0.07,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "New Hampshire",
+                    "covid": 0.05,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "New Hampshire",
+                    "covid": 0.05,
+                    "influenza": 0.08,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "New Hampshire",
+                    "covid": 0.1,
+                    "influenza": 0.09,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "New Hampshire",
+                    "covid": 0.09,
+                    "influenza": 0.09,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "New Hampshire",
+                    "covid": 0.11,
+                    "influenza": 0.05,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "New Hampshire",
+                    "covid": 0.16,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "New Hampshire",
+                    "covid": 0.26,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "New Hampshire",
+                    "covid": 0.23,
+                    "influenza": 0.14,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.38
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "New Hampshire",
+                    "covid": 0.25,
+                    "influenza": 0.11,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.36
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "New Hampshire",
+                    "covid": 0.36,
+                    "influenza": 0.16,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.52
+                }
+            ]
+        },
+        "New Jersey": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "New Jersey",
+                "covid": 0.51,
+                "influenza": 0.2,
+                "rsv": 0.04,
+                "respiratory_activity": 0.75
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "New Jersey",
+                    "covid": 0.1,
+                    "influenza": 0.07,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "New Jersey",
+                    "covid": 0.11,
+                    "influenza": 0.03,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "New Jersey",
+                    "covid": 0.12,
+                    "influenza": 0.06,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "New Jersey",
+                    "covid": 0.14,
+                    "influenza": 0.06,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.23
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "New Jersey",
+                    "covid": 0.18,
+                    "influenza": 0.06,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "New Jersey",
+                    "covid": 0.19,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "New Jersey",
+                    "covid": 0.24,
+                    "influenza": 0.09,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.36
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "New Jersey",
+                    "covid": 0.32,
+                    "influenza": 0.1,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.44
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "New Jersey",
+                    "covid": 0.34,
+                    "influenza": 0.12,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.5
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "New Jersey",
+                    "covid": 0.42,
+                    "influenza": 0.11,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.56
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "New Jersey",
+                    "covid": 0.53,
+                    "influenza": 0.18,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.74
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "New Jersey",
+                    "covid": 0.51,
+                    "influenza": 0.2,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.75
+                }
+            ]
+        },
+        "New Mexico": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "New Mexico",
+                "covid": 0.2,
+                "influenza": 0.2,
+                "rsv": 0.01,
+                "respiratory_activity": 0.41
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "New Mexico",
+                    "covid": 0.08,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "New Mexico",
+                    "covid": 0.11,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "New Mexico",
+                    "covid": 0.1,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "New Mexico",
+                    "covid": 0.19,
+                    "influenza": 0.04,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.25
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "New Mexico",
+                    "covid": 0.16,
+                    "influenza": 0.03,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "New Mexico",
+                    "covid": 0.2,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "New Mexico",
+                    "covid": 0.35,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.42
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "New Mexico",
+                    "covid": 0.29,
+                    "influenza": 0.09,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.39
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "New Mexico",
+                    "covid": 0.34,
+                    "influenza": 0.08,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.42
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "New Mexico",
+                    "covid": 0.37,
+                    "influenza": 0.03,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.42
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "New Mexico",
+                    "covid": 0.35,
+                    "influenza": 0.13,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.5
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "New Mexico",
+                    "covid": 0.2,
+                    "influenza": 0.2,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.41
+                }
+            ]
+        },
+        "New York": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "New York",
+                "covid": 0.49,
+                "influenza": 0.16,
+                "rsv": 0.01,
+                "respiratory_activity": 0.66
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "New York",
+                    "covid": 0.09,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "New York",
+                    "covid": 0.07,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "New York",
+                    "covid": 0.13,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "New York",
+                    "covid": 0.13,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "New York",
+                    "covid": 0.17,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.22
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "New York",
+                    "covid": 0.21,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "New York",
+                    "covid": 0.22,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "New York",
+                    "covid": 0.27,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "New York",
+                    "covid": 0.33,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.4
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "New York",
+                    "covid": 0.41,
+                    "influenza": 0.08,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.5
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "New York",
+                    "covid": 0.48,
+                    "influenza": 0.11,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.6
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "New York",
+                    "covid": 0.49,
+                    "influenza": 0.16,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.66
+                }
+            ]
+        },
+        "North Carolina": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "North Carolina",
+                "covid": 0.76,
+                "influenza": 0.82,
+                "rsv": 0.03,
+                "respiratory_activity": 1.61
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "North Carolina",
+                    "covid": 0.13,
+                    "influenza": 0.32,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.49
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "North Carolina",
+                    "covid": 0.12,
+                    "influenza": 0.28,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.43
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "North Carolina",
+                    "covid": 0.16,
+                    "influenza": 0.26,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.44
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "North Carolina",
+                    "covid": 0.2,
+                    "influenza": 0.24,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.46
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "North Carolina",
+                    "covid": 0.27,
+                    "influenza": 0.29,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.57
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "North Carolina",
+                    "covid": 0.34,
+                    "influenza": 0.29,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.65
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "North Carolina",
+                    "covid": 0.45,
+                    "influenza": 0.32,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.79
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "North Carolina",
+                    "covid": 0.57,
+                    "influenza": 0.44,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.04
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "North Carolina",
+                    "covid": 0.69,
+                    "influenza": 0.49,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.21
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "North Carolina",
+                    "covid": 0.83,
+                    "influenza": 0.66,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.52
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "North Carolina",
+                    "covid": 0.93,
+                    "influenza": 0.82,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.78
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "North Carolina",
+                    "covid": 0.76,
+                    "influenza": 0.82,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.61
+                }
+            ]
+        },
+        "North Dakota": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "North Dakota",
+                "covid": 0.09,
+                "influenza": 0.15,
+                "rsv": 0.01,
+                "respiratory_activity": 0.25
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "North Dakota",
+                    "covid": 0.02,
+                    "influenza": 0.02,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.06
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "North Dakota",
+                    "covid": 0.02,
+                    "influenza": 0.02,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.06
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "North Dakota",
+                    "covid": 0.03,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.07
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "North Dakota",
+                    "covid": 0.05,
+                    "influenza": 0.06,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "North Dakota",
+                    "covid": 0.03,
+                    "influenza": 0.01,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.04
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "North Dakota",
+                    "covid": 0.07,
+                    "influenza": 0.01,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "North Dakota",
+                    "covid": 0.06,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "North Dakota",
+                    "covid": 0.26,
+                    "influenza": 0.01,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.3
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "North Dakota",
+                    "covid": 0.07,
+                    "influenza": 0.12,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "North Dakota",
+                    "covid": 0.09,
+                    "influenza": 0.11,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "North Dakota",
+                    "covid": 0.07,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "North Dakota",
+                    "covid": 0.09,
+                    "influenza": 0.15,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.25
+                }
+            ]
+        },
+        "Ohio": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Ohio",
+                "covid": 0.15,
+                "influenza": 0.1,
+                "rsv": 0.01,
+                "respiratory_activity": 0.26
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Ohio",
+                    "covid": 0.03,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.06
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Ohio",
+                    "covid": 0.03,
+                    "influenza": 0.01,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.05
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Ohio",
+                    "covid": 0.04,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.07
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Ohio",
+                    "covid": 0.05,
+                    "influenza": 0.01,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.07
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Ohio",
+                    "covid": 0.06,
+                    "influenza": 0.01,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.07
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Ohio",
+                    "covid": 0.07,
+                    "influenza": 0.01,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Ohio",
+                    "covid": 0.08,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Ohio",
+                    "covid": 0.1,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Ohio",
+                    "covid": 0.14,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Ohio",
+                    "covid": 0.15,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Ohio",
+                    "covid": 0.19,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Ohio",
+                    "covid": 0.15,
+                    "influenza": 0.1,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.26
+                }
+            ]
+        },
+        "Oklahoma": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Oklahoma",
+                "covid": 0.26,
+                "influenza": 0.16,
+                "rsv": 0.02,
+                "respiratory_activity": 0.44
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Oklahoma",
+                    "covid": 0.06,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Oklahoma",
+                    "covid": 0.05,
+                    "influenza": 0.04,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Oklahoma",
+                    "covid": 0.04,
+                    "influenza": 0.05,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Oklahoma",
+                    "covid": 0.05,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Oklahoma",
+                    "covid": 0.13,
+                    "influenza": 0.05,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.23
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Oklahoma",
+                    "covid": 0.12,
+                    "influenza": 0.09,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Oklahoma",
+                    "covid": 0.16,
+                    "influenza": 0.05,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Oklahoma",
+                    "covid": 0.22,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Oklahoma",
+                    "covid": 0.33,
+                    "influenza": 0.05,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.38
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Oklahoma",
+                    "covid": 0.33,
+                    "influenza": 0.1,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.44
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Oklahoma",
+                    "covid": 0.26,
+                    "influenza": 0.13,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.4
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Oklahoma",
+                    "covid": 0.26,
+                    "influenza": 0.16,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.44
+                }
+            ]
+        },
+        "Oregon": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Oregon",
+                "covid": 0.84,
+                "influenza": 0.36,
+                "rsv": 0.02,
+                "respiratory_activity": 1.22
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Oregon",
+                    "covid": 0.08,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Oregon",
+                    "covid": 0.09,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.15
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Oregon",
+                    "covid": 0.08,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Oregon",
+                    "covid": 0.13,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Oregon",
+                    "covid": 0.19,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.22
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Oregon",
+                    "covid": 0.22,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Oregon",
+                    "covid": 0.27,
+                    "influenza": 0.05,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Oregon",
+                    "covid": 0.33,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.41
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Oregon",
+                    "covid": 0.34,
+                    "influenza": 0.1,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.45
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Oregon",
+                    "covid": 0.44,
+                    "influenza": 0.13,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.58
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Oregon",
+                    "covid": 0.59,
+                    "influenza": 0.23,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.83
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Oregon",
+                    "covid": 0.84,
+                    "influenza": 0.36,
+                    "rsv": 0.02,
+                    "respiratory_activity": 1.22
+                }
+            ]
+        },
+        "Pennsylvania": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Pennsylvania",
+                "covid": 0.24,
+                "influenza": 0.12,
+                "rsv": 0.01,
+                "respiratory_activity": 0.37
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Pennsylvania",
+                    "covid": 0.05,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Pennsylvania",
+                    "covid": 0.03,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Pennsylvania",
+                    "covid": 0.06,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Pennsylvania",
+                    "covid": 0.06,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Pennsylvania",
+                    "covid": 0.07,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Pennsylvania",
+                    "covid": 0.08,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Pennsylvania",
+                    "covid": 0.09,
+                    "influenza": 0.05,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Pennsylvania",
+                    "covid": 0.11,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Pennsylvania",
+                    "covid": 0.16,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Pennsylvania",
+                    "covid": 0.19,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Pennsylvania",
+                    "covid": 0.24,
+                    "influenza": 0.1,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.35
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Pennsylvania",
+                    "covid": 0.24,
+                    "influenza": 0.12,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.37
+                }
+            ]
+        },
+        "Rhode Island": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Rhode Island",
+                "covid": 0.27,
+                "influenza": 0.09,
+                "rsv": 0.02,
+                "respiratory_activity": 0.38
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Rhode Island",
+                    "covid": 0.0,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.04
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Rhode Island",
+                    "covid": 0.0,
+                    "influenza": 0.08,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Rhode Island",
+                    "covid": 0.05,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Rhode Island",
+                    "covid": 0.08,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Rhode Island",
+                    "covid": 0.03,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.06
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Rhode Island",
+                    "covid": 0.19,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.25
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Rhode Island",
+                    "covid": 0.13,
+                    "influenza": 0.03,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Rhode Island",
+                    "covid": 0.16,
+                    "influenza": 0.07,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.25
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Rhode Island",
+                    "covid": 0.14,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Rhode Island",
+                    "covid": 0.24,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.29
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Rhode Island",
+                    "covid": 0.35,
+                    "influenza": 0.11,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.47
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Rhode Island",
+                    "covid": 0.27,
+                    "influenza": 0.09,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.38
+                }
+            ]
+        },
+        "South Carolina": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "South Carolina",
+                "covid": 0.6,
+                "influenza": 0.23,
+                "rsv": 0.04,
+                "respiratory_activity": 0.87
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "South Carolina",
+                    "covid": 0.11,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "South Carolina",
+                    "covid": 0.06,
+                    "influenza": 0.06,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "South Carolina",
+                    "covid": 0.12,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "South Carolina",
+                    "covid": 0.16,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "South Carolina",
+                    "covid": 0.19,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.22
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "South Carolina",
+                    "covid": 0.29,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.36
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "South Carolina",
+                    "covid": 0.45,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.5
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "South Carolina",
+                    "covid": 0.58,
+                    "influenza": 0.08,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.67
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "South Carolina",
+                    "covid": 0.77,
+                    "influenza": 0.07,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.86
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "South Carolina",
+                    "covid": 0.78,
+                    "influenza": 0.08,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.89
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "South Carolina",
+                    "covid": 0.73,
+                    "influenza": 0.18,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.93
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "South Carolina",
+                    "covid": 0.6,
+                    "influenza": 0.23,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.87
+                }
+            ]
+        },
+        "South Dakota": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "South Dakota",
+                "covid": 0.23,
+                "influenza": 0.15,
+                "rsv": 0.0,
+                "respiratory_activity": 0.38
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "South Dakota",
+                    "covid": 0.1,
+                    "influenza": 0.02,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "South Dakota",
+                    "covid": 0.14,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "South Dakota",
+                    "covid": 0.06,
+                    "influenza": 0.02,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.11
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "South Dakota",
+                    "covid": 0.13,
+                    "influenza": 0.02,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.15
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "South Dakota",
+                    "covid": 0.1,
+                    "influenza": 0.02,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "South Dakota",
+                    "covid": 0.08,
+                    "influenza": 0.0,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "South Dakota",
+                    "covid": 0.16,
+                    "influenza": 0.05,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "South Dakota",
+                    "covid": 0.11,
+                    "influenza": 0.03,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "South Dakota",
+                    "covid": 0.15,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "South Dakota",
+                    "covid": 0.13,
+                    "influenza": 0.08,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "South Dakota",
+                    "covid": 0.23,
+                    "influenza": 0.08,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.31
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "South Dakota",
+                    "covid": 0.23,
+                    "influenza": 0.15,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.38
+                }
+            ]
+        },
+        "Tennessee": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Tennessee",
+                "covid": 0.4,
+                "influenza": 0.2,
+                "rsv": 0.04,
+                "respiratory_activity": 0.64
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Tennessee",
+                    "covid": 0.13,
+                    "influenza": 0.1,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.27
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Tennessee",
+                    "covid": 0.13,
+                    "influenza": 0.09,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.25
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Tennessee",
+                    "covid": 0.14,
+                    "influenza": 0.11,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.28
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Tennessee",
+                    "covid": 0.18,
+                    "influenza": 0.11,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.33
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Tennessee",
+                    "covid": 0.22,
+                    "influenza": 0.11,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.35
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Tennessee",
+                    "covid": 0.26,
+                    "influenza": 0.12,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.4
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Tennessee",
+                    "covid": 0.37,
+                    "influenza": 0.12,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.51
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Tennessee",
+                    "covid": 0.53,
+                    "influenza": 0.16,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.71
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Tennessee",
+                    "covid": 0.63,
+                    "influenza": 0.17,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.83
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Tennessee",
+                    "covid": 0.6,
+                    "influenza": 0.19,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.82
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Tennessee",
+                    "covid": 0.54,
+                    "influenza": 0.2,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.78
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Tennessee",
+                    "covid": 0.4,
+                    "influenza": 0.2,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.64
+                }
+            ]
+        },
+        "Texas": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Texas",
+                "covid": 0.95,
+                "influenza": 0.37,
+                "rsv": 0.06,
+                "respiratory_activity": 1.38
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Texas",
+                    "covid": 0.24,
+                    "influenza": 0.14,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.41
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Texas",
+                    "covid": 0.31,
+                    "influenza": 0.11,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.46
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Texas",
+                    "covid": 0.41,
+                    "influenza": 0.12,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.56
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Texas",
+                    "covid": 0.55,
+                    "influenza": 0.12,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.71
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Texas",
+                    "covid": 0.7,
+                    "influenza": 0.13,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.86
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Texas",
+                    "covid": 0.83,
+                    "influenza": 0.15,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.01
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Texas",
+                    "covid": 0.99,
+                    "influenza": 0.17,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.19
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Texas",
+                    "covid": 1.39,
+                    "influenza": 0.2,
+                    "rsv": 0.04,
+                    "respiratory_activity": 1.63
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Texas",
+                    "covid": 1.71,
+                    "influenza": 0.29,
+                    "rsv": 0.04,
+                    "respiratory_activity": 2.04
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Texas",
+                    "covid": 1.63,
+                    "influenza": 0.31,
+                    "rsv": 0.03,
+                    "respiratory_activity": 1.97
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Texas",
+                    "covid": 1.31,
+                    "influenza": 0.37,
+                    "rsv": 0.05,
+                    "respiratory_activity": 1.73
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Texas",
+                    "covid": 0.95,
+                    "influenza": 0.37,
+                    "rsv": 0.06,
+                    "respiratory_activity": 1.38
+                }
+            ]
+        },
+        "United States": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "United States",
+                "covid": 0.52,
+                "influenza": 0.31,
+                "rsv": 0.03,
+                "respiratory_activity": 0.86
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "United States",
+                    "covid": 0.13,
+                    "influenza": 0.1,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "United States",
+                    "covid": 0.14,
+                    "influenza": 0.08,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "United States",
+                    "covid": 0.18,
+                    "influenza": 0.08,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.28
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "United States",
+                    "covid": 0.22,
+                    "influenza": 0.08,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "United States",
+                    "covid": 0.27,
+                    "influenza": 0.08,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.37
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "United States",
+                    "covid": 0.32,
+                    "influenza": 0.09,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.43
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "United States",
+                    "covid": 0.39,
+                    "influenza": 0.1,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.51
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "United States",
+                    "covid": 0.51,
+                    "influenza": 0.12,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.66
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "United States",
+                    "covid": 0.63,
+                    "influenza": 0.16,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.82
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "United States",
+                    "covid": 0.64,
+                    "influenza": 0.2,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.87
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "United States",
+                    "covid": 0.62,
+                    "influenza": 0.26,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.91
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "United States",
+                    "covid": 0.52,
+                    "influenza": 0.31,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.86
+                }
+            ]
+        },
+        "Utah": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Utah",
+                "covid": 0.35,
+                "influenza": 0.32,
+                "rsv": 0.0,
+                "respiratory_activity": 0.67
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Utah",
+                    "covid": 0.07,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.15
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Utah",
+                    "covid": 0.1,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Utah",
+                    "covid": 0.13,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Utah",
+                    "covid": 0.09,
+                    "influenza": 0.05,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Utah",
+                    "covid": 0.14,
+                    "influenza": 0.06,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Utah",
+                    "covid": 0.13,
+                    "influenza": 0.07,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Utah",
+                    "covid": 0.13,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.19
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Utah",
+                    "covid": 0.25,
+                    "influenza": 0.08,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.33
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Utah",
+                    "covid": 0.25,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.33
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Utah",
+                    "covid": 0.29,
+                    "influenza": 0.1,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.39
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Utah",
+                    "covid": 0.32,
+                    "influenza": 0.19,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.53
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Utah",
+                    "covid": 0.35,
+                    "influenza": 0.32,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.67
+                }
+            ]
+        },
+        "Vermont": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Vermont",
+                "covid": 0.14,
+                "influenza": 0.03,
+                "rsv": 0.0,
+                "respiratory_activity": 0.17
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Vermont",
+                    "covid": 0.0,
+                    "influenza": 0.0,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.02
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Vermont",
+                    "covid": 0.05,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Vermont",
+                    "covid": 0.11,
+                    "influenza": 0.02,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Vermont",
+                    "covid": 0.03,
+                    "influenza": 0.0,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.05
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Vermont",
+                    "covid": 0.06,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Vermont",
+                    "covid": 0.09,
+                    "influenza": 0.06,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.15
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Vermont",
+                    "covid": 0.08,
+                    "influenza": 0.05,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.13
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Vermont",
+                    "covid": 0.14,
+                    "influenza": 0.02,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Vermont",
+                    "covid": 0.13,
+                    "influenza": 0.05,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Vermont",
+                    "covid": 0.21,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.24
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Vermont",
+                    "covid": 0.21,
+                    "influenza": 0.08,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Vermont",
+                    "covid": 0.14,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.17
+                }
+            ]
+        },
+        "Virginia": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Virginia",
+                "covid": 0.46,
+                "influenza": 0.22,
+                "rsv": 0.02,
+                "respiratory_activity": 0.7
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Virginia",
+                    "covid": 0.11,
+                    "influenza": 0.09,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.22
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Virginia",
+                    "covid": 0.1,
+                    "influenza": 0.08,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Virginia",
+                    "covid": 0.12,
+                    "influenza": 0.06,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.2
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Virginia",
+                    "covid": 0.16,
+                    "influenza": 0.07,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Virginia",
+                    "covid": 0.17,
+                    "influenza": 0.07,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Virginia",
+                    "covid": 0.22,
+                    "influenza": 0.08,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.32
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Virginia",
+                    "covid": 0.25,
+                    "influenza": 0.07,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.34
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Virginia",
+                    "covid": 0.34,
+                    "influenza": 0.08,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.45
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Virginia",
+                    "covid": 0.43,
+                    "influenza": 0.1,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.55
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Virginia",
+                    "covid": 0.47,
+                    "influenza": 0.14,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.65
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Virginia",
+                    "covid": 0.58,
+                    "influenza": 0.18,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.78
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Virginia",
+                    "covid": 0.46,
+                    "influenza": 0.22,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.7
+                }
+            ]
+        },
+        "Washington": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Washington",
+                "covid": 0.97,
+                "influenza": 0.85,
+                "rsv": 0.01,
+                "respiratory_activity": 1.83
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Washington",
+                    "covid": 0.11,
+                    "influenza": 0.2,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.33
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Washington",
+                    "covid": 0.1,
+                    "influenza": 0.14,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Washington",
+                    "covid": 0.1,
+                    "influenza": 0.1,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.22
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Washington",
+                    "covid": 0.15,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.23
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Washington",
+                    "covid": 0.17,
+                    "influenza": 0.08,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.25
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Washington",
+                    "covid": 0.26,
+                    "influenza": 0.1,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.37
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Washington",
+                    "covid": 0.33,
+                    "influenza": 0.1,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.45
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Washington",
+                    "covid": 0.41,
+                    "influenza": 0.14,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.57
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Washington",
+                    "covid": 0.48,
+                    "influenza": 0.25,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.74
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Washington",
+                    "covid": 0.6,
+                    "influenza": 0.36,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.97
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Washington",
+                    "covid": 0.93,
+                    "influenza": 0.63,
+                    "rsv": 0.02,
+                    "respiratory_activity": 1.58
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Washington",
+                    "covid": 0.97,
+                    "influenza": 0.85,
+                    "rsv": 0.01,
+                    "respiratory_activity": 1.83
+                }
+            ]
+        },
+        "West Virginia": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "West Virginia",
+                "covid": 0.26,
+                "influenza": 0.04,
+                "rsv": 0.02,
+                "respiratory_activity": 0.32
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "West Virginia",
+                    "covid": 0.12,
+                    "influenza": 0.04,
+                    "rsv": 0.07,
+                    "respiratory_activity": 0.23
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "West Virginia",
+                    "covid": 0.06,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "West Virginia",
+                    "covid": 0.06,
+                    "influenza": 0.05,
+                    "rsv": 0.05,
+                    "respiratory_activity": 0.16
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "West Virginia",
+                    "covid": 0.05,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "West Virginia",
+                    "covid": 0.07,
+                    "influenza": 0.04,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "West Virginia",
+                    "covid": 0.07,
+                    "influenza": 0.04,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.14
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "West Virginia",
+                    "covid": 0.13,
+                    "influenza": 0.07,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.21
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "West Virginia",
+                    "covid": 0.11,
+                    "influenza": 0.05,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.17
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "West Virginia",
+                    "covid": 0.23,
+                    "influenza": 0.01,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.26
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "West Virginia",
+                    "covid": 0.28,
+                    "influenza": 0.05,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.33
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "West Virginia",
+                    "covid": 0.29,
+                    "influenza": 0.05,
+                    "rsv": 0.03,
+                    "respiratory_activity": 0.37
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "West Virginia",
+                    "covid": 0.26,
+                    "influenza": 0.04,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.32
+                }
+            ]
+        },
+        "Wisconsin": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Wisconsin",
+                "covid": 0.13,
+                "influenza": 0.2,
+                "rsv": 0.01,
+                "respiratory_activity": 0.34
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Wisconsin",
+                    "covid": 0.02,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.06
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Wisconsin",
+                    "covid": 0.02,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.05
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Wisconsin",
+                    "covid": 0.04,
+                    "influenza": 0.02,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.07
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Wisconsin",
+                    "covid": 0.05,
+                    "influenza": 0.03,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.09
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Wisconsin",
+                    "covid": 0.07,
+                    "influenza": 0.03,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Wisconsin",
+                    "covid": 0.06,
+                    "influenza": 0.02,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.08
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Wisconsin",
+                    "covid": 0.06,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.1
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Wisconsin",
+                    "covid": 0.08,
+                    "influenza": 0.04,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.12
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Wisconsin",
+                    "covid": 0.11,
+                    "influenza": 0.07,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.18
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Wisconsin",
+                    "covid": 0.13,
+                    "influenza": 0.21,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.35
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Wisconsin",
+                    "covid": 0.16,
+                    "influenza": 0.18,
+                    "rsv": 0.0,
+                    "respiratory_activity": 0.34
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Wisconsin",
+                    "covid": 0.13,
+                    "influenza": 0.2,
+                    "rsv": 0.01,
+                    "respiratory_activity": 0.34
+                }
+            ]
+        },
+        "Wyoming": {
+            "latest": {
+                "week": "2026-09-19",
+                "geography": "Wyoming",
+                "covid": 0.45,
+                "influenza": 0.54,
+                "rsv": 0.12,
+                "respiratory_activity": 1.11
+            },
+            "trend": [
+                {
+                    "week": "2026-07-04",
+                    "geography": "Wyoming",
+                    "covid": 0.27,
+                    "influenza": 0.23,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.54
+                },
+                {
+                    "week": "2026-07-11",
+                    "geography": "Wyoming",
+                    "covid": 0.49,
+                    "influenza": 0.26,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.79
+                },
+                {
+                    "week": "2026-07-18",
+                    "geography": "Wyoming",
+                    "covid": 0.47,
+                    "influenza": 0.32,
+                    "rsv": 0.06,
+                    "respiratory_activity": 0.85
+                },
+                {
+                    "week": "2026-07-25",
+                    "geography": "Wyoming",
+                    "covid": 0.38,
+                    "influenza": 0.3,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.72
+                },
+                {
+                    "week": "2026-08-01",
+                    "geography": "Wyoming",
+                    "covid": 0.36,
+                    "influenza": 0.28,
+                    "rsv": 0.07,
+                    "respiratory_activity": 0.71
+                },
+                {
+                    "week": "2026-08-08",
+                    "geography": "Wyoming",
+                    "covid": 0.44,
+                    "influenza": 0.35,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.83
+                },
+                {
+                    "week": "2026-08-15",
+                    "geography": "Wyoming",
+                    "covid": 0.47,
+                    "influenza": 0.55,
+                    "rsv": 0.04,
+                    "respiratory_activity": 1.06
+                },
+                {
+                    "week": "2026-08-22",
+                    "geography": "Wyoming",
+                    "covid": 0.51,
+                    "influenza": 0.35,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.88
+                },
+                {
+                    "week": "2026-08-29",
+                    "geography": "Wyoming",
+                    "covid": 0.52,
+                    "influenza": 0.38,
+                    "rsv": 0.04,
+                    "respiratory_activity": 0.94
+                },
+                {
+                    "week": "2026-09-05",
+                    "geography": "Wyoming",
+                    "covid": 0.59,
+                    "influenza": 0.35,
+                    "rsv": 0.02,
+                    "respiratory_activity": 0.96
+                },
+                {
+                    "week": "2026-09-12",
+                    "geography": "Wyoming",
+                    "covid": 0.51,
+                    "influenza": 0.47,
+                    "rsv": 0.02,
+                    "respiratory_activity": 1.0
+                },
+                {
+                    "week": "2026-09-19",
+                    "geography": "Wyoming",
+                    "covid": 0.45,
+                    "influenza": 0.54,
+                    "rsv": 0.12,
+                    "respiratory_activity": 1.11
+                }
+            ]
+        }
+    }
+}

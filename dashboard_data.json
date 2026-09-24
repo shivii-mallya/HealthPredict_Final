@@ -1,0 +1,46 @@
+{
+    "forecast": [
+        {
+            "date": "2024-10-30",
+            "expected": 17.5,
+            "lower": 15.5,
+            "upper": 19.5
+        },
+        {
+            "date": "2024-10-31",
+            "expected": 17.85,
+            "lower": 15.85,
+            "upper": 19.85
+        },
+        {
+            "date": "2024-11-01",
+            "expected": 17.6,
+            "lower": 15.6,
+            "upper": 19.6
+        },
+        {
+            "date": "2024-11-02",
+            "expected": 18.14,
+            "lower": 16.14,
+            "upper": 20.14
+        },
+        {
+            "date": "2024-11-03",
+            "expected": 17.54,
+            "lower": 15.54,
+            "upper": 19.54
+        },
+        {
+            "date": "2024-11-04",
+            "expected": 18.9,
+            "lower": 16.9,
+            "upper": 20.9
+        },
+        {
+            "date": "2024-11-05",
+            "expected": 17.58,
+            "lower": 15.58,
+            "upper": 19.58
+        }
+    ]
+}
