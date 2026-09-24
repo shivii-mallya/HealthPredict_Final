@@ -159,7 +159,7 @@ Current situation → Expected demand → External health context → Required r
                                   ↓
                               Dashboard
 
-
+```
 ## Machine Learning
 Model
 
