@@ -268,12 +268,11 @@ Step 6 — Dashboard
 
 All outputs are presented through a single dashboard for easier interpretation and planning.
 
-Sustainability & Impact
+## Sustainability & Impact
 
 The project supports sustainable healthcare planning by helping hospitals anticipate demand instead of relying only on reactive resource allocation.
 
-Potential benefits include:
-
+## Potential benefits include:
 Better resource preparedness
 Reduced medical supply wastage
 Earlier identification of shortages
@@ -282,7 +281,7 @@ Better utilization of hospital capacity
 Support for more equitable access to healthcare resources
 Limitations
 
-This is a hackathon prototype and has several limitations:
+## This is a hackathon prototype and has several limitations:
 
 The hospital admission dataset covers a limited time period.
 The current forecasting model is intended for short-term demand prediction.
@@ -292,7 +291,7 @@ Resource requirements are estimated using historical resource-to-admission ratio
 Current inventory analysis operates at a prototype level and does not map every predicted usage unit to an individual inventory item.
 Future Scope
 
-Potential future improvements include:
+## Potential future improvements include:
 
 Larger historical datasets for stronger seasonal forecasting
 More advanced time-series models
@@ -314,6 +313,9 @@ SDG 3 — Good Health and Well-being
 
 SDG 10 — Reduced Inequalities
 
+## AI Tools & Development Disclosure
+
+The team used ChatGPT throughout the project for brainstorming, technical guidance, debugging, and development assistance. AI was used to assist with generating and improving parts of the ML, backend, and frontend code, as well as documentation and presentation content. All AI-generated code was reviewed, modified, integrated, and tested by the team. The project uses a Random Forest Regressor with scikit-learn for forecasting and the public CDC NSSP dataset for epidemiological context. No generative-AI model is used at runtime.
 ## Disclaimer
 
 This project is a predictive analytics prototype developed for demonstration and hackathon purposes. Its predictions should not be treated as medical advice or as a replacement for professional hospital resource-management decisions.
